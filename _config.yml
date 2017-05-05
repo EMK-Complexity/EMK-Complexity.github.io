@@ -24,9 +24,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Theme Cayman settings
+show_downloads: false
