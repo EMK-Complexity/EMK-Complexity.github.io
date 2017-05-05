@@ -24,12 +24,10 @@ require 'open-uri'
 versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
 gem "github-pages", versions['github-pages'], group: :jekyll_plugins
-# gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
-#   gem "jekyll-theme-cayman"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
