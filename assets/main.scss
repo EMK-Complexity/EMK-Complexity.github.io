@@ -1,0 +1,21 @@
+---
+---
+
+@import "minima";
+
+$header-heading-color: #FFF;
+$header-bg-color: #000;
+
+.site-header {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: url("/images/vivid_light_lines_smaller.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
+.site-title:visited, .site-title:hover, site-title:active, site-title:link {
+    color: #FFF;
+}
