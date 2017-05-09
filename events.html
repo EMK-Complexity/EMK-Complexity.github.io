@@ -18,13 +18,18 @@ channel</a>.</p>
       <ul class="tags-expo-posts">
 	{% for post in site.categories.events %}
 	  {% if post.tags contains tag[0] %}
-	    <a href="{{ site.baseurl }}{{ post.url }}">
-	      <li>      
-		{{ post.title }}
-		-
-		{{ post.date | date_to_string }}
-	      </li>
-	    </a>
+
+	    <li>
+	      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+	      <span class="post-meta">{{ post.date | date: date_format }}</span>
+	      <h2>
+		<a class="post-link" href="{{ post.url | relative_url }}">
+		  {{ post.title | escape }}
+		</a> 
+	      </h2>
+	      {{ post.excerpt }}
+	    </li>
+
 	  {% endif %}
 	{% endfor %}
       </ul>
@@ -36,13 +41,18 @@ channel</a>.</p>
     <ul class="tags-expo-posts">
       {% for post in site.categories.events %}
         {% if post.tags == empty %}
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            <li>      
-              {{ post.title }}
-              -
-              {{ post.date | date_to_string }}
-            </li>
-          </a>
+
+	    <li>
+	      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+	      <span class="post-meta">{{ post.date | date: date_format }}</span>
+	      <h2>
+		<a class="post-link" href="{{ post.url | relative_url }}">
+		  {{ post.title | escape }}
+		</a> 
+	      </h2>
+	      {{ post.excerpt }}
+	    </li>
+
         {% endif %}
       {% endfor %}
     </ul>
