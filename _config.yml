@@ -32,3 +32,4 @@ exclude:
   - Gemfile.lock
 
 timezone: Europe/London
+permalink: /:categories/:year/:title.html
