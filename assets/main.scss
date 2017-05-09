@@ -3,25 +3,26 @@
 
 @import "minima";
 
-$header-heading-color: #FFF;
+$header-heading-color: #BBB;
 $header-bg-color: #000;
 
 .site-header {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: url("/images/vivid_light_lines_smaller.jpg");
-  background-size: cover;
+  background-image: url("/images/header.jpg");
+//  background-size: 600px 80px; // cover;
+  background-position: center;
   background-repeat: no-repeat;
   min-height: 80px;
 }
 
 .site-title:visited, .site-title:hover, site-title:active, site-title:link {
-    color: #FFF;
+    color: $header-heading-color;
 }
 
 .site-nav .page-link {
-    color: #FFF;
+    color: $header-heading-color;
 }
 
 .member-profile {
@@ -30,4 +31,13 @@ $header-bg-color: #000;
 
 .member-profile-text {
     line-height: 0.4;
+}
+
+body {
+    font-family: Montserrat, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #818181;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #111;
 }
