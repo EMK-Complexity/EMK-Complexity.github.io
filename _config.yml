@@ -34,4 +34,5 @@ timezone: Europe/London
 permalink: /:categories/:year/:title.html
 
 header_pages:
+  - about.html
   - events.html
