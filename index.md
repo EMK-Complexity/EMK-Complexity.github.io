@@ -4,3 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+The EMK Complexity Group has been working for over 20 years, with organisations in the private and public sectors to address practical complex problems. In the process it has developed a theory of complex social systems and an integrated methodology using both qualitative and quantitative tools.

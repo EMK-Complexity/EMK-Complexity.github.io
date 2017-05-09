@@ -13,9 +13,13 @@ $header-bg-color: #000;
   background-image: url("/images/vivid_light_lines_smaller.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 400px;
+  min-height: 80px;
 }
 
 .site-title:visited, .site-title:hover, site-title:active, site-title:link {
+    color: #FFF;
+}
+
+.site-nav .page-link {
     color: #FFF;
 }

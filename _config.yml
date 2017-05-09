@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: EMK Complexity Group
 email: E.Mitleton-Kelly@lse.ac.uk
-description: > # this means to ignore newlines until "baseurl:"
-  The EMK Complexity Group has been working for over 20 years, with organisations in the private and public sectors to address practical complex problems. In the process it has developed a theory of complex social systems and an integrated methodology using both qualitative and quantitative tools and methods.
+# description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username:
@@ -33,3 +32,6 @@ exclude:
 
 timezone: Europe/London
 permalink: /:categories/:year/:title.html
+
+header_pages:
+  - events.html
