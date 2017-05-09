@@ -5,16 +5,38 @@ permalink: events/
 ---
 
 <div class="tags-expo">
+  {% for tag in site.tags %}
+    <h1> {{ tag[0] }} </h1>
+    <div class="tags-expo-section">
+      <ul class="tags-expo-posts">
+	{% for post in site.categories.events %}
+	  {% if post.tags contains tag[0] %}
+	    <a href="{{ site.baseurl }}{{ post.url }}">
+	      <li>      
+		{{ post.title }}
+		-
+		{{ post.date | date_to_string }}
+	      </li>
+	    </a>
+	  {% endif %}
+	{% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+
   <div class="tags-expo-section">
+    <h1>Miscellaneous</h1>
     <ul class="tags-expo-posts">
       {% for post in site.categories.events %}
-        <a href="{{ site.baseurl }}{{ post.url }}">
-      <li>
-        {{ post.title }}
-	-
-        {{ post.date | date_to_string }}
-      </li>
-      </a>
+        {% if post.tags == empty %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <li>      
+              {{ post.title }}
+              -
+              {{ post.date | date_to_string }}
+            </li>
+          </a>
+        {% endif %}
       {% endfor %}
     </ul>
   </div>
