@@ -1,5 +1,5 @@
 ---
-layout: event-page
+layout: page
 title: Events
 permalink: events/
 ---
@@ -9,36 +9,18 @@ permalink: events/
 <p>Videos of many of our previous events are available on <a href="https://www.youtube.com/channel/UCaY7I2J4X_0dMyndQSqma2g">our YouTube
 channel</a>.</p>
 
-<p>Below is a list of our previous events.</p>
+<p>Below is a list of our previous events:</p>
 
-
-{% assign some-events-are-tagless = false %}
+{% assign grouped_by_category = site.events | group_by:"category" %}
 <div class="tags-expo">
-  {% for tag in site.tags %}
-    <h1> {{ tag[0] }} </h1>
+  {% for category in grouped_by_category %}
     <div class="tags-expo-section">
+      <h1> {{ category.name | default: "Miscellaneous" }} </h1>
       <ul class="tags-expo-posts">
-	{% for post in site.categories.events %}
-	  {% if post.tags contains tag[0] %}
-	    {% include event-listing-entry.html post=post %}
-	  {% elsif post.tags == empty %}
-	    {% assign some-events-are-tagless = true %}
-	  {% endif %}
+        {% for event in category.items %}
+          {% include post-listing-entry.html post=event %}
 	{% endfor %}
       </ul>
     </div>
   {% endfor %}
-
-  {% if some-events-are-tagless %}
-    <div class="tags-expo-section">
-      <h1>Miscellaneous</h1>
-      <ul class="tags-expo-posts">
-	{% for post in site.categories.events %}
-	  {% if post.tags == empty %}
-	    {% include event-listing-entry.html post=post %}
-	  {% endif %}
-	{% endfor %}
-      </ul>
-    </div>
-  {% endif %}
 </div>

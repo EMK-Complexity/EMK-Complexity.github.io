@@ -38,3 +38,15 @@ header_pages:
   - events.html
 
 excerpt_separator: <!--break-->
+
+collections:
+  events:
+    output: true
+    permalink: /:collection/:name.html
+      
+defaults:
+  - scope:
+      path: _events
+      type: events
+    values:
+      layout: post
