@@ -24,15 +24,28 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
 
+    <p>{{ page.description }}</p>
+
     {% for session in page.sessions %}
-      <h2> {{ session.title }} </h2>
-      <p> {{ session.presenters }} </p>
+      <div style="margin-bottom: 3em;">
+      <h2 style="margin-bottom: 0em;"> {{ session.title }} </h2>
+      {% if session.presenters %}
+        <div style="margin-bottom:1em;">
+	{% for presenter in session.presenters %}
+	  <p style="margin-bottom:0em;">
+	    {{ presenter.prefix }}
+	    <strong> {{ presenter.name }}</strong>{% if presenter.affiliation %}, {{ presenter.affiliation }} {% endif %} 
+	  </p>
+	{% endfor %}
+        </div>
+      {% endif %}
       <p> {{ session.description }} </p>
       {% if session.youtube %}
 	{% for youtube in session.youtube %}
-	  <iframe width="640" height="360" src="https://www.youtube.com/embed/{{ youtube }}?list={{ page.youtube_playlist }}" frameborder="0" allowfullscreen></iframe>
+	  <p><iframe width="740" height="416" src="https://www.youtube.com/embed/{{ youtube }}?list={{ page.youtube_playlist }}" frameborder="0" allowfullscreen></iframe></p>
 	{% endfor %}
       {% endif %}
+      </div>
     {% endfor %}
 
     {{ content }}
