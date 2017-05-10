@@ -1,9 +1,0 @@
-{% assign data = site.data[include.data] %}
-
-<p> Venue: {{ data.venue }}.
-
-  {% if data.youtube_playlist %}
-    <a href="https://www.youtube.com/playlist?list={{ data.youtube_playlist }}">Videos available on YouTube</a>.
-  {% endif %}
-
-</p>
