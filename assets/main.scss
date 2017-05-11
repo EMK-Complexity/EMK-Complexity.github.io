@@ -7,14 +7,17 @@ $header-heading-color: #BBB;
 $header-bg-color: #000;
 
 .site-header {
-  color: $header-heading-color;
-  text-align: center;
-  background-color: $header-bg-color;
-  background-image: url("/images/header.jpg");
-//  background-size: 600px 80px; // cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 80px;
+    color: $header-heading-color;
+    text-align: center;
+    background-color: $header-bg-color;
+    background-image: url("/images/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80px;
+}
+
+.site-title {
+    font-weight: 400;
 }
 
 .site-title:visited, .site-title:hover, site-title:active, site-title:link {
@@ -23,6 +26,7 @@ $header-bg-color: #000;
 
 .site-nav .page-link {
     color: $header-heading-color;
+    font-weight: bold;
 }
 
 .member-profile {
