@@ -39,7 +39,7 @@ sessions:
       name: Dr. Christopher L. Barrett
       affiliation: Group Leader of the Basic and Applied Simulation Science Group of the Computing and Computational Sciences Division, Los Alamos National Laboratory
   description: "There is an increasing appreciation of the centrality of complex cascades of interactions among various (psychological, social, physical, and technological) elements of human systems and our environment. Dr Barrett will introduce a perspective on foundations of interaction-based systems and interaction-based computing as the natural basis for the simulation and analysis of in large socio-technical systems. The approach is interesting theoretically and also useful in many important ways, and he will emphasize one of them: scaling practical simulations of operating civil infrastructures that involve interactions among very large numbers (106 to 1012) of heterogeneous, interacting entities."
-  youtube:
+  youtube: pldY4VGsxx0
 
 - title: "PART II - Prospects for Complexity Science in Helping Solve Business and Technology Problems"
   presenters:
@@ -56,7 +56,7 @@ sessions:
     Within the collective of technology, existing elements often become building blocks that build further building blocks--further technologies. Thus Lee De Forest's triode vacuum tube combined with other electronic elements to create the amplifier, the oscillator, the heterodyne mixer, and eventually the logic circuit. These, in their turn, became building blocks in yet further devices: transmission repeaters in telephony, radar, and early computers.
 
     How does combination and recombination work within technology? How do higher-level technologies come into being from simpler ones? And by what dynamics does the entire collective of technology emerge from primitive elements? Prof. Arthur will discuss these questions and how they relate to complexity.
-  youtube:
+  youtube: Glsl1BRtx-o
 
 - title: "Complexity & Consumer Behaviour"
   presenters:
@@ -64,7 +64,7 @@ sessions:
       name: Dr Bryan D. Gross
       affiliation: President and Chief Executive Officer, MPSI Systems Inc.
   description: "Retail performance depends largely upon the retailer's ability to manage the store-customer interface across all stores in a retail network; made more complex by interactions between proximal stores and consumers. Sustained retail success requires simultaneous consideration of the impact of all decisions at all points in the retail network. Simulation models have offered decades of scientific support for managing this complex environment. Optimization methods married to simulation systems now offer a further, significant improvement for managing complexities of the store-customer interface."
-  youtube:
+  youtube: 8OfE0iv3z0Q
 
 - title: "From the scale-free Web to Avogadro-scale Engineering"
   presenters:
@@ -72,6 +72,6 @@ sessions:
       name: Prof. Scott Kirkpatrick
       affiliation: Professor in the School of Engineering and Computer Science, Hebrew University and Exystence Network of Excellence
   description: ""
-  youtube:
+  youtube: sRhKNeDftvM
 
 ---
