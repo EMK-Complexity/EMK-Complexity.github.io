@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -24,7 +25,7 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
 
-    <p>{{ page.description }}</p>
+    {{ page.description | markdownify }}
 
     {% for session in page.sessions %}
       <div style="margin-bottom: 3em;">
@@ -50,15 +51,17 @@ layout: default
 
     {{ content }}
 
-    <div class="PageNavigation">
-      {% if page.previous.url %}
-	<a class="prev" href="{{page.previous.url}}">&laquo; Previous event: {{page.previous.title}}</a>
-      {% endif %}
-      {% if page.next.url %}
-	<a class="next" href="{{page.next.url}}">Next event: {{page.next.title}} &raquo;</a>
-      {% endif %}
-    </div>
   </div>
+
+  <div class="PageNavigation">
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}">&laquo; Previous event: {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">Next event: {{page.next.title}} &raquo;</a>
+    {% endif %}
+  </div>
+
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}

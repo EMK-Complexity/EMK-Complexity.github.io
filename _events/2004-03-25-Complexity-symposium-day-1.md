@@ -3,12 +3,12 @@ title:  "Complexity symposium day 1"
 category: Complexity symposium
 youtube_playlist: PLFWENpxYsbNqwceSmDPDGDEXmqTASxj5Z
 venue: 
-description: >
-  <p>Co-Sponsored by the Santa Fe Institute, the European Commission, and the London School of Economics.</p>
+description: |
+  Co-Sponsored by the Santa Fe Institute, the European Commission, and the London School of Economics.
 
-  <p><a href="http://www.santafe.edu"><strong>The Santa Fe Institute</strong></a> is a private, non-profit, multidisciplinary research and education center, founded in 1984. Since its founding SFI has devoted itself to creating a new kind of scientific research community, pursuing emerging science. Operating as a small, visiting institution, SFI seeks to catalyze new collaborative, multidisciplinary projects that break down the barriers between the traditional disciplines, to spread its ideas and methodologies to other individuals and encourage the practical applications of its results.</p>
+  [**The Santa Fe Institute**](http://www.santafe.edu) is a private, non-profit, multidisciplinary research and education center, founded in 1984. Since its founding SFI has devoted itself to creating a new kind of scientific research community, pursuing emerging science. Operating as a small, visiting institution, SFI seeks to catalyze new collaborative, multidisciplinary projects that break down the barriers between the traditional disciplines, to spread its ideas and methodologies to other individuals and encourage the practical applications of its results.
 
-  <p><strong>EXYSTENCE</strong> is the <a href="http://www.complexityscience.org">European Complex Systems Network of Excellence</a>, funded by the Future Emerging Technologies (FET) of the European Commission. Membership is open to both academics and business members. The series of Seminars is organised by Professor Eve Mitleton-Kelly, Exystence Coordinator for Links with Industry and Government and Director, Complexity Research Programme, London School of Economics.</p>
+  **EXYSTENCE** is the [European Complex Systems Network of Excellence](http://www.complexityscience.org), funded by the Future Emerging Technologies (FET) of the European Commission. Membership is open to both academics and business members. The series of Seminars is organised by Professor Eve Mitleton-Kelly, Exystence Coordinator for Links with Industry and Government and Director, Complexity Research Programme, London School of Economics.
 
 sessions:
 
@@ -52,9 +52,10 @@ sessions:
     - prefix:
       name: Prof. W. Brian Arthur
       affiliation: Science Board Member, Santa Fe Institute
-  description: "<p>Within the collective of technology, existing elements often become building blocks that build further building blocks--further technologies. Thus Lee De Forest's triode vacuum tube combined with other electronic elements to create the amplifier, the oscillator, the heterodyne mixer, and eventually the logic circuit. These, in their turn, became building blocks in yet further devices: transmission repeaters in telephony, radar, and early computers.</p>
+  description: |
+    Within the collective of technology, existing elements often become building blocks that build further building blocks--further technologies. Thus Lee De Forest's triode vacuum tube combined with other electronic elements to create the amplifier, the oscillator, the heterodyne mixer, and eventually the logic circuit. These, in their turn, became building blocks in yet further devices: transmission repeaters in telephony, radar, and early computers.
 
-<p>How does combination and recombination work within technology? How do higher-level technologies come into being from simpler ones? And by what dynamics does the entire collective of technology emerge from primitive elements? Prof. Arthur will discuss these questions and how they relate to complexity.</p>"
+    How does combination and recombination work within technology? How do higher-level technologies come into being from simpler ones? And by what dynamics does the entire collective of technology emerge from primitive elements? Prof. Arthur will discuss these questions and how they relate to complexity.
   youtube:
 
 - title: "Complexity & Consumer Behaviour"
@@ -70,14 +71,6 @@ sessions:
     - prefix:
       name: Prof. Scott Kirkpatrick
       affiliation: Professor in the School of Engineering and Computer Science, Hebrew University and Exystence Network of Excellence
-  description: ""
-  youtube:
-
-- title: ""
-  presenters:
-    - prefix:
-      name:
-      affiliation:
   description: ""
   youtube:
 
