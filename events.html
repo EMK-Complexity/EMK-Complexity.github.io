@@ -30,7 +30,7 @@ channel</a>.</p>
 	  {% unless session.is_section_heading %}
 	    {% for presenter in session.presenters %}
 	      {% if presenter.name == "Prof. Eve Mitleton-Kelly" %}
-		{% include post-listing-entry.html post=event session=session do_not_link_to_anchor=do_not_link_to_anchor %}
+		{% include post-listing-entry.html post=event session=session do_not_link_to_anchor=do_not_link_to_anchor include_date=true %}
 	      {% endif %}
 	    {% endfor %}
 	  {% endunless %}
@@ -51,7 +51,7 @@ channel</a>.</p>
       <h2> {{ category.name | default: "Miscellaneous" }} </h2>
       <ul class="events-listing-posts">
         {% for event in category.items %}
-          {% include post-listing-entry.html post=event %}
+          {% include post-listing-entry.html post=event include_date=true %}
 	{% endfor %}
       </ul>
     </div>
@@ -69,7 +69,7 @@ channel</a>.</p>
       <h2> {{ year.name }} </h2>
       <ul class="events-listing-posts">
         {% for event in year.items %}
-          {% include post-listing-entry.html post=event %}
+          {% include post-listing-entry.html post=event include_date=true %}
 	{% endfor %}
       </ul>
     </div>

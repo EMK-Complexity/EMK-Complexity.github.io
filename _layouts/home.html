@@ -10,7 +10,7 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% include post-listing-entry.html post=post include_excerpt=true %}
+      {% include post-listing-entry.html post=post include_excerpt=true include_date=true %}
     {% endfor %}
   </ul>
 

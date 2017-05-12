@@ -1,0 +1,16 @@
+---
+layout: page
+title: Projects
+permalink: projects/
+---
+
+
+<div class="events-listing">
+  <div class="events-listing-group">
+    <ul class="events-listing-posts">
+      {% for project in site.projects %}
+        {% include post-listing-entry.html post=project include_excerpt=true %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

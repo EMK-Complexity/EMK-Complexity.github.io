@@ -1,6 +1,18 @@
+<!--
+Arguments:
+----------
+* post: a post object
+* do_not_link_to_anchor: bool
+* include_excerpt: bool
+* include_date: bool
+-->
+
 <li>
-  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-  <span class="post-meta">{{ include.post.date | date: date_format }}</span>
+
+  {% if include.include_date %}
+    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+    <span class="post-meta">{{ include.post.date | date: date_format }}</span>
+  {% endif %}
   <h2>
     {% assign href = include.post.url | relative_url %}
     {% assign link_text = include.post.title | escape | default: "Unknown title" %}
