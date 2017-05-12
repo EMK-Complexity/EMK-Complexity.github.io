@@ -46,7 +46,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #111;
 }
 
-.tags-expo-section h2 {
+//-----------------------------------------
+// Events listings
+
+.events-listing {
+    background-color: #EEE;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.events-listing-group h2 {
     font-size: 18px;
 }
 
@@ -55,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
 }
 
+//--------------------------------------------
 // "Next event" and "previous event" navigation
 // Adapted from
 // http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html

@@ -11,21 +11,18 @@ channel</a>.</p>
 
 <p>Below is a list of our previous events.  The events are grouped in three ways:</p>
 <ul>
-  <li><a href="#prof-eve-mitleton-kelly-s-presentations">Prof. Eve Mitleton-Kelly's presentations</a>.</li>
-  <li><a href="#grouped-by-category">All events, grouped by category</a>.</li>
-  <li><a href="#grouped-by-year">All events, grouped by year</a>.</li>
+  <li><a href="#prof-eve-mitleton-kelly-s-presentations">Prof. Eve Mitleton-Kelly's presentations</a></li>
+  <li><a href="#grouped-by-category">All events, grouped by category</a></li>
+  <li><a href="#grouped-by-year">All events, grouped by year</a></li>
 </ul>
 
-<div class="tags-expo">
-
-  <hr />
-
+<div class="events-listing">
   <!-- Find all Prof. Eve Mitleton-Kelly's presentations -->
-  <div class="tags-expo-section">
+  <div class="events-listing-group">
     <a name="prof-eve-mitleton-kelly-s-presentations">
       <h1>Prof. Eve Mitleton-Kelly's presentations</h1>
     </a>
-    <ul class="tags-expo-posts">
+    <ul class="events-listing-posts">
 
       {% for event in site.events %}
 	{% for session in event.sessions %}
@@ -40,43 +37,40 @@ channel</a>.</p>
       {% endfor %}
     </ul>
   </div>
+</div>
 
-  <hr />
-
+<div class="events-listing">
   <!-- Events grouped by category -->
   <a name="grouped-by-category">
     <h1>All events grouped by category</h1>
   </a>  
   {% assign grouped_by_category = site.events | group_by:"category" %}
   {% for category in grouped_by_category %}
-    <div class="tags-expo-section">
+    <div class="events-listing-group">
       <h2> {{ category.name | default: "Miscellaneous" }} </h2>
-      <ul class="tags-expo-posts">
+      <ul class="events-listing-posts">
         {% for event in category.items %}
           {% include post-listing-entry.html post=event %}
 	{% endfor %}
       </ul>
     </div>
   {% endfor %}
+</div>
 
-  <hr />
+<div class="events-listing">
   <!-- Events grouped by year -->
   <a name="grouped-by-year">
     <h1>All events grouped by year</h1>
   </a>  
   {% assign grouped_by_year = site.events | group_by_exp:"item", "item.date | date: '%Y'" %}
   {% for year in grouped_by_year %}
-    <div class="tags-expo-section">
+    <div class="events-listing-group">
       <h2> {{ year.name }} </h2>
-      <ul class="tags-expo-posts">
+      <ul class="events-listing-posts">
         {% for event in year.items %}
           {% include post-listing-entry.html post=event %}
 	{% endfor %}
       </ul>
     </div>
   {% endfor %}
-
-
 </div>
-
-
