@@ -33,9 +33,10 @@ exclude:
 timezone: Europe/London
 
 header_pages:
-  - about.html
   - events.html
-
+  - publications.html
+  - about.html
+  
 excerpt_separator: <!--break-->
 
 collections:
