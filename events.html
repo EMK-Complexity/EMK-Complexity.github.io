@@ -26,10 +26,11 @@ channel</a>.</p>
 
       {% for event in site.events %}
 	{% for session in event.sessions %}
+          {% assign do_not_link_to_anchor = forloop.first %}
 	  {% unless session.is_section_heading %}
 	    {% for presenter in session.presenters %}
 	      {% if presenter.name == "Prof. Eve Mitleton-Kelly" %}
-		{% include post-listing-entry.html post=event session=session %}
+		{% include post-listing-entry.html post=event session=session do_not_link_to_anchor=do_not_link_to_anchor %}
 	      {% endif %}
 	    {% endfor %}
 	  {% endunless %}

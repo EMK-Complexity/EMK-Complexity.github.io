@@ -6,8 +6,10 @@
     {% assign link_text = include.post.title | escape %}
     {% if include.session %}
       <!-- modify link href -->
-      {% assign session_title_slugified = session.title | slugify | prepend:"#" %}
-      {% assign href = href | append: session_title_slugified %}
+      {% unless include.do_not_link_to_anchor %}
+        {% assign session_title_slugified = session.title | slugify | prepend:"#" %}
+        {% assign href = href | append: session_title_slugified %}
+      {% endunless %}
 
       <!-- modify link text -->
       {% assign title_text = "'" | append: include.session.title | append: "' at the " %}
