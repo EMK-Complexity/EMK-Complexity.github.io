@@ -34,7 +34,7 @@ timezone: Europe/London
 
 header_pages:
   - events.html
-  - publications.html
+  - publications.md
   - about.html
   
 excerpt_separator: <!--break-->
