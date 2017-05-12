@@ -17,9 +17,9 @@ title: EMK Complexity Group
 email: E.Mitleton-Kelly@lse.ac.uk
 # description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://emk-complexity.org" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username:
-# github_username:
+# github_username: "EMK-Complexity"
 
 # Build settings
 markdown: kramdown
@@ -31,7 +31,6 @@ exclude:
   - Gemfile.lock
 
 timezone: Europe/London
-permalink: /:categories/:year/:title.html
 
 header_pages:
   - about.html
@@ -43,6 +42,8 @@ collections:
   events:
     output: true
     permalink: /:collection/:name.html
+  posts:
+    permalink: /news/:name.html
       
 defaults:
   - scope:
