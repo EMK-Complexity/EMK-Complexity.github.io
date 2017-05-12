@@ -3,7 +3,7 @@
   <span class="post-meta">{{ include.post.date | date: date_format }}</span>
   <h2>
     {% assign href = include.post.url | relative_url %}
-    {% assign link_text = include.post.title | escape %}
+    {% assign link_text = include.post.title | escape | default: "Unknown title" %}
     {% if include.session %}
       <!-- modify link href -->
       {% unless include.do_not_link_to_anchor %}
