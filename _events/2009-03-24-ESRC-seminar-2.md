@@ -4,7 +4,21 @@ category: ESRC complexity seminar series
 youtube_playlist: PLFWENpxYsbNpvc1xE4GToSRDC13h2qOIu
 venue: The LSE
 description: Organised jointly with Professor Jeff Johnson, The Open University.
+path_to_docs: $BUCKET/events/2009/
+docs:
+  - ESRC-ComplexityResSem2FlierUpdated.pdf
+  - ESRC-ComplexitySem2FeedbackCommunityEnergyUse.pdf
+  - ESRC-ComplexitySem2FeedbackNotesRenewables.pdf
+  - ESRC-ComplexitySem2ProvProg.pdf
+
 sessions:
+- title: "Welcome"
+  presenters:
+    name: Professor Eve Mitleton-Kelly
+  youtube: 4fiZCOVX_eU
+  docs:
+    - ESRCseminar2MitletonKellyIntroduction.pdf
+
 - title: "Session 1: Energy Futures: The Challenge"
   presenters: 
     - name: "Prof. David Elliott"
@@ -13,12 +27,19 @@ sessions:
   youtube: 
     - VN4ewFFY2kg
     - vvpy6_zpVnI
+  docs:
+    - ESRCseminar2ElliotPart1.pdf
+    - ESRCseminar2ElliotPart2.pdf
+    - ESRCseminar2ElliotPart3.pdf
+    - ESRCseminar2PeakeStephen.pdf
 
 - title: "Session 2: Complexity Science and Policy"
   presenters: 
     - name: "Prof. Alan Wilson"
   description: "Sir Alan Wilson speaks about the interplay between policy and science in the search for practical solutions to the problem of finding and implementing sustainable energy sources in the context of climate change. Well known for his pioneering work on spatial interaction methods and dynamical systems theory in transportation and urban modelling, his interests concern the many aspects of mathematical modelling and planning in relation to all facets of cities and regions. He is been particularly concerned with comprehensive urban models in a dynamic framework, links between urban and ecological systems, and developments connecting network theory with spatial interaction modelling. Sir Alan Wilson became Professor of Urban and Regional Geography at Leeds University in 1970, and Vice Chancellor from 1991. He was elected a Fellow of the British Academy in 1994, and a Fellow of the Royal Society in 2006. He became first Director General for Higher Education by the UK Government in 2004, where he was a key adviser to various secretaries of state and played a critical role in the government’s drive to widen participation in higher education."
   youtube: 8hpjygYg3pI
+  docs:
+    - ESRCseminar2WilsonAlan.pdf
 
 - title: "Session 3: Energy Policy and Climate Change"
   presenters: 
@@ -33,11 +54,15 @@ sessions:
     - name: "Owen Dowsett"
       affiliation: "Research Directorate, ESRC"
   youtube: 3mTL1pJuz2Y
+  docs:
+    - ESRCseminar2DowsettESRC.pdf
 
 - title: "Energy and Climate Change: The Contribution of Complexity Science"
   presenters: 
     - name: "Professor Jeff Johnson"
   youtube: penF2fZp754
+  docs:
+    - ESRCseminar2JohnsonJeff.pdf
 
 - title: "Discussions and reflections from the feedback session​"
   presenters: ""
@@ -46,3 +71,7 @@ sessions:
     - yI-gUn_2AgA
     - MLK-4bxPUxQ
 ---
+
+# Flipcharts:
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/37816297@N06/albums/72157680645907523" title="ESRC Complexity Seminar 2 flipcharts"><img src="https://c1.staticflickr.com/5/4168/34612936105_f44f947522.jpg" width="400" height="480" alt="ESRC Complexity Seminar 2 flipcharts"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

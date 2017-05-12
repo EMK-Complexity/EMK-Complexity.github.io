@@ -52,4 +52,5 @@ defaults:
     values:
       layout: event
 
-path_to_audio_files: http://emk-complexity.s3.amazonaws.com/audio/
+path_to_audio_files: http://emk-complexity.s3.amazonaws.com/audio/ # with trailing slash
+path_to_bucket: http://emk-complexity.s3.amazonaws.com # no trailing slash

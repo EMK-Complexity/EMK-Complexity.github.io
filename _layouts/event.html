@@ -27,6 +27,10 @@ layout: default
 
     {{ page.description | markdownify }}
 
+    <!-- List documents -->
+    {% assign path_to_docs = page.path_to_docs | replace:'$BUCKET', site.path_to_bucket %}
+    {% include list-files.html files=page.docs heading="Documents" path=path_to_docs %}
+
     {% for session in page.sessions %}
       <div style="margin-bottom: 3em;">
       <a name="{{ session.title | slugify }}"><h2 style="margin-bottom: 0em;"> {{ session.title }} </h2></a>
@@ -41,25 +45,24 @@ layout: default
         </div>
       {% endif %}
       <p> {{ session.description | markdownify | replace:"$IMG_PATH",page.img_path}} </p>
+
       {% if session.youtube %}
 	{% for youtube in session.youtube %}
 	  <p><iframe width="740" height="416" src="https://www.youtube.com/embed/{{ youtube }}?list={{ page.youtube_playlist }}" frameborder="0" allowfullscreen></iframe></p>
 	{% endfor %}
       {% endif %}
+
       {% if session.vimeo %}
 	{% for video in session.vimeo %}
 	  <p><iframe src="https://player.vimeo.com/video/{{ video }}" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
 	{% endfor %}
       {% endif %}
 
-      {% if session.audio %}
-	<h3>Audio files</h3>
-	<ol>
-	{% for audio_filename in session.audio %}
-	  <li><a href="{{ site.path_to_audio_files }}{{ audio_filename }}">{{ audio_filename }}</a></li>
-	{% endfor %}
-	</ol>
-      {% endif %}
+      <!-- List audio files -->
+      {% include list-files.html files=session.audio heading="Audio files" path=site.path_to_audio_files %}
+
+      <!-- List documents -->
+      {% include list-files.html files=session.docs heading="Documents" path=path_to_docs %}
 
       </div>
     {% endfor %}
@@ -76,7 +79,6 @@ layout: default
       <a class="next" href="{{page.next.url}}">Next event: {{page.next.title}} &raquo;</a>
     {% endif %}
   </div>
-
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}

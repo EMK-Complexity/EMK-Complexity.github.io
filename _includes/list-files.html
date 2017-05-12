@@ -1,0 +1,8 @@
+{% if include.files %}
+  <h3>{{ include.heading }}</h3>
+    <ol>
+      {% for filename in include.files %}
+	<li><a href="{{ include.path }}{{ filename }}">{{ filename }}</a></li>
+      {% endfor %}
+    </ol>
+{% endif %}
