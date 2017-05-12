@@ -51,3 +51,5 @@ defaults:
       type: events
     values:
       layout: event
+
+path_to_audio_files: http://emk-complexity.s3.amazonaws.com/audio/

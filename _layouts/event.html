@@ -52,6 +52,15 @@ layout: default
 	{% endfor %}
       {% endif %}
 
+      {% if session.audio %}
+	<h3>Audio files</h3>
+	<ol>
+	{% for audio_filename in session.audio %}
+	  <li><a href="{{ site.path_to_audio_files }}{{ audio_filename }}">{{ audio_filename }}</a></li>
+	{% endfor %}
+	</ol>
+      {% endif %}
+
       </div>
     {% endfor %}
 
