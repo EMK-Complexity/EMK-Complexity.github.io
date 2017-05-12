@@ -1,6 +1,6 @@
 ---
 title: FET Conference
-category: "Prof. Eve Mitleton-Kelly's Presentations"
+category: 
 description: # Markdown.
 youtube_playlist: 
 venue: FET Prague

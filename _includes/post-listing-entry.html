@@ -2,8 +2,19 @@
   {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
   <span class="post-meta">{{ include.post.date | date: date_format }}</span>
   <h2>
-    <a class="post-link" href="{{ include.post.url | relative_url }}">
-      {{ include.post.title | escape }}
+    {% assign href = include.post.url | relative_url %}
+    {% assign link_text = include.post.title | escape %}
+    {% if include.session %}
+      <!-- modify link href -->
+      {% assign session_title_slugified = session.title | slugify | prepend:"#" %}
+      {% assign href = href | append: session_title_slugified %}
+
+      <!-- modify link text -->
+      {% assign title_text = "'" | append: include.session.title | append: "' at the " %}
+      {% assign link_text = link_text | prepend: title_text %}
+    {% endif %}
+    <a class="post-link" href="{{ href }}">
+      {{ link_text }}
     </a> 
   </h2>
   {{ include.post.excerpt }}

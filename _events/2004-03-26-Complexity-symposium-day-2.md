@@ -9,6 +9,7 @@ excerpt: ""
 sessions:
 
 - title: "PART III -- Current Research & Future Directions in Complexity Science"
+  is_section_heading: true
   presenters:
     - prefix: "Moderator: "
       name: Prof. Eve Mitleton-Kelly
@@ -55,6 +56,7 @@ sessions:
   youtube: TMgWGazC1o8
 
 - title: "PART IV"
+  is_section_heading: true
   presenters:
     - prefix: "Moderator: "
       name: Dr. Ralph Dum

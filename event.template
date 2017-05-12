@@ -8,6 +8,7 @@ img_path: # No training slash. Then use "$IMG_PATH/" elsewhere in this page.
 sessions:
 - 
   title: 
+  is_section_heading: # set to true if this is a section heading, not a "proper" session.
   presenters:
     - 
       prefix: 

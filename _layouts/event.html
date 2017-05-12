@@ -29,7 +29,7 @@ layout: default
 
     {% for session in page.sessions %}
       <div style="margin-bottom: 3em;">
-      <h2 style="margin-bottom: 0em;"> {{ session.title }} </h2>
+      <a name="{{ session.title | slugify }}"><h2 style="margin-bottom: 0em;"> {{ session.title }} </h2></a>
       {% if session.presenters %}
         <div style="margin-bottom:1em;">
 	{% for presenter in session.presenters %}

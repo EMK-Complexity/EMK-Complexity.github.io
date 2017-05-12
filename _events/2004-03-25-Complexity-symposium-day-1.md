@@ -19,6 +19,7 @@ sessions:
   youtube: V4CXtX4QTkI
 
 - title: "PART I - Prospects for Complexity Science in Helping Solve Societal Issues"
+  is_section_heading: true
   presenters: 
     - prefix: "Moderator:"
       name: Dr Robert A. Eisenstein
@@ -42,6 +43,7 @@ sessions:
   youtube: pldY4VGsxx0
 
 - title: "PART II - Prospects for Complexity Science in Helping Solve Business and Technology Problems"
+  is_section_heading: true
   presenters:
     - prefix: "Moderator: "
       name: Prof. Eve Mitleton-Kelly
