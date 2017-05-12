@@ -19,5 +19,7 @@
       {{ link_text }}
     </a> 
   </h2>
-  {{ include.post.excerpt }}
+  {% if include.include_excerpt %}
+    {{ include.post.excerpt }}
+  {% endif %}
 </li>

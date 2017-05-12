@@ -5,6 +5,7 @@ youtube_playlist: PLFWENpxYsbNpvc1xE4GToSRDC13h2qOIu
 venue: The LSE
 description: Organised jointly with Professor Jeff Johnson, The Open University.
 path_to_docs: $BUCKET/events/2009/
+excerpt: ""
 docs:
   - ESRC-ComplexityResSem2FlierUpdated.pdf
   - ESRC-ComplexitySem2FeedbackCommunityEnergyUse.pdf

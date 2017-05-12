@@ -32,7 +32,7 @@ layout: default
     {% include list-files.html files=page.docs heading="Documents" path=path_to_docs %}
 
     {% for session in page.sessions %}
-      <div style="margin-bottom: 3em;">
+      <div class="session">
       <a name="{{ session.title | slugify }}"><h2 style="margin-bottom: 0em;"> {{ session.title }} </h2></a>
       {% if session.presenters %}
         <div style="margin-bottom:1em;">
