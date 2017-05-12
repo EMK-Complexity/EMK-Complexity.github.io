@@ -46,6 +46,12 @@ layout: default
 	  <p><iframe width="740" height="416" src="https://www.youtube.com/embed/{{ youtube }}?list={{ page.youtube_playlist }}" frameborder="0" allowfullscreen></iframe></p>
 	{% endfor %}
       {% endif %}
+      {% if session.vimeo %}
+	{% for video in session.vimeo %}
+	  <p><iframe src="https://player.vimeo.com/video/{{ video }}" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+	{% endfor %}
+      {% endif %}
+
       </div>
     {% endfor %}
 

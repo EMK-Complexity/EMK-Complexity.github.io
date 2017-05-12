@@ -1,0 +1,19 @@
+---
+title: 
+category: 
+description: # Markdown.
+youtube_playlist: 
+venue: 
+img_path: # No training slash. Then use "$IMG_PATH/" elsewhere in this page.
+sessions:
+- 
+  title: 
+  presenters:
+    - 
+      prefix: 
+      name: 
+      affiliation: 
+  description: 
+  youtube: # Can be a single string or a list of strings of the YouTube video ID.
+  vimeo: # List of strings of the Vimeo video ID.  e.g. "[5181341]"
+---
