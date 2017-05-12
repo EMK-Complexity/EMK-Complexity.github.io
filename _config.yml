@@ -36,6 +36,7 @@ header_pages:
   - events.html
   - publications.md
   - projects.html
+  - bibliography.md
   - about.html
   
 excerpt_separator: <!--break-->
