@@ -10,10 +10,12 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% include post-listing-entry.html post=post include_excerpt=true include_date=true %}
+      {% include post-listing-entry.html post=post include_excerpt=true %}
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <p class="rss-subscribe">
+    subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
+  </p>
 
 </div>

@@ -5,12 +5,14 @@ permalink: projects/
 ---
 
 
-<div class="events-listing">
-  <div class="events-listing-group">
-    <ul class="events-listing-posts">
-      {% for project in site.projects %}
-        {% include post-listing-entry.html post=project include_excerpt=true %}
-      {% endfor %}
-    </ul>
+
+
+{% for project in site.projects %}
+  <div class="project-link">
+    <a class="post-link" href="{{ project.url | relative_url }}">
+      {{ project.title | escape }}
+    </a>  
   </div>
-</div>
+{% endfor %}
+
+
