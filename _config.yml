@@ -36,7 +36,7 @@ header_pages:
   - events.html
   - publications.md
   - projects.html
-  - bibliography.md
+  - complexity_guide.md
   - about.html
   
 excerpt_separator: <!--break-->
@@ -49,6 +49,9 @@ collections:
     permalink: /news/:name.html
   projects:
     output: true
+    permalink: /:collection/:name.html
+  guide:
+    output: true
     permalink: /:collection/:name.html    
       
 defaults:
@@ -60,6 +63,11 @@ defaults:
   - scope:
       path: _projects
       type: projects
+    values:
+      layout: page
+  - scope:
+      path: _guide
+      type: guide
     values:
       layout: page
 

@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Bibliography
-permalink: bibliography/
 ---
 
 [A](#a) \| [B](#b) \| [C](#c) \| [D](#d) \| [E](#e) \| [F](#f) \| [G](#g) \| [H](#h) \| [I](#i) \| [J](#j) \| [K](#k) \| [L](#l) \| [M](#m) \| [N](#n) \| [O](#o) \| [P](#p) \| [R](#r) \| [S](#s) \| [T](#t) \| [U](#u) \| [V](#v) \| [W](#w) \| [Z](#z)
@@ -274,7 +272,7 @@ Casti J. L. (1997), Would-be Worlds Chichester: John Wiley
 Casti J. L. (1998), Developing and Applying Complex Adaptive Models,
 Strategy & Complexity Seminar, London School of Economics, 15 May,
 
-<http://www.lse.ac.uk/lse/complex><span style="display:none">|</span>
+<http://www.lse.ac.uk/lse/complex>
 
 Caudron S. (1999), ‘Free Agent Learner’, Training & Development 53(8),
 26-31
@@ -310,7 +308,7 @@ Clarkson P. (1998), Learning to Unlearn: Insights from a Qualitative
 Study of Successful Business Managers, Strategy & Complexity Seminar,
 London School of Economics, 15 January,
 
-<http://www.lse.ac.uk/lse/complex><span style="display:none">|</span>
+<http://www.lse.ac.uk/lse/complex>
 
 Clegg S. R., Hardy C. and Nord W. R. (1996) (eds.), Handbook of
 Organization Studies, Thousand Oaks, California: Sage
@@ -462,7 +460,7 @@ Espejo R. (1997), Giving Requisite Variety to Strategic and
 Implementation Processes: Theory and Practice, Strategy & Complexity
 Seminar, 17 November, London School of Economics,
 
-<http://www.lse.ac.uk/lse/complex><span style="display:none">|</span>
+<http://www.lse.ac.uk/lse/complex>
 
 Espejo R. and Bowling D. (1997), 'Viplan Learning System: A Tutorial to
 Learn About the Viable System Model and its Use' (software), Aston
@@ -590,8 +588,7 @@ Gleick J. (1998), Chaos: Making a New Science, London: Heinemann
 Gold N. (1998), ‘The Meaning of "Legacy Systems"’, Technical Report
 7/98, Dept of Computer Science, University of Durham, UK,
 
-<http://www.dur.ac.uk/CSM/SABA/meaning.html><span
-style="display:none">|</span>
+<http://www.dur.ac.uk/CSM/SABA/meaning.html>
 
 Goldstein J. (1994), The Unshackled Organization, Portland, Oregon:
 Productivity Press
@@ -601,7 +598,7 @@ Goodwin B. (1995), How the Leopard Changed Its Spots, London: Phoenix
 Goodwin B. (1997), Complexity and the Participatory Worldview, LSE
 Strategy & Complexity Seminar, 23 March,
 
-<http://www.lse.ac.uk/lse/complex><span style="display:none">|</span>
+<http://www.lse.ac.uk/lse/complex>
 
 Gordon R. W. (1984), 'Critical Legal History’, in Stanford Law Review,
 36, 57-125
@@ -742,7 +739,7 @@ James K. (1997),The Complexity of Power Relations: An Interdisciplinary
 Approach to Complex Systems Thinking, Strategy & Complexity Seminar,
 London School of Economics, 17 December,
 
-<http://www.lse.ac.uk/lse/complex><span style="display:none">|</span>
+<http://www.lse.ac.uk/lse/complex>
 
 Janis I. L. (1972), Victims of Group Think, Boston: Houghton Mifflin
 
@@ -809,7 +806,7 @@ McGraw-Hill
 Kelly S. and Davis C. (1998), The Complexity Advantage, Strategy &
 Complexity Seminar, London School of Economics, 11 November,
 
-<http://www.lse.ac.uk/lse/complex><span style="display:none">|</span>
+<http://www.lse.ac.uk/lse/complex>
 
 Kierkegaard S. (1985), Fear and Trembling, London: Penguin
 
@@ -931,8 +928,7 @@ Journal of Economics, 13, 418–438
 Lissack M. (1997), Complexity Metaphors and the Management of a
 Knowledge-based Enterprise: An Exploration of Discovery,
 
-<http://lissack.com/writings/proposal.htm><span
-style="display:none">|</span>
+<http://lissack.com/writings/proposal.htm>
 
 Lissack M. and Guntz H. (1999), Managing the Complex, Boston: Quorum
 Books
@@ -1078,13 +1074,12 @@ Elements Interacting within a Social System’, FEAST 2000 International
 Workshop on ‘Feedback and Evolution in Software and Business Processes’,
 London Imperial College, July 10-12,
 
-<http://www.lse.ac.uk/lse/complex><span style="display:none">|</span>
+<http://www.lse.ac.uk/lse/complex>
 
 Mitleton-Kelly E., ‘Organisations as Complex Evolving Systems’, in
 Mitleton-Kelly (1998), and
 
-<http://www.lse.ac.uk/lse/complex/publications/OACES.htm><span
-style="display:none">|</span>
+<http://www.lse.ac.uk/lse/complex/publications/OACES.htm>
 
 Mitleton-Kelly, E. (1998) (ed), Proceedings of the Organisations as
 Complex Evolving Systems Conference, Warwick, UK: University of Warwick
@@ -1169,12 +1164,7 @@ O
 
 Oliver D. and Roos J. (1997), The Poised Organisation: Navigating
 Effectively on Knowledge Landscapes, Strategy and Complexity Seminar,
-London School of Economics, 13 February,
-
-<http://www.imd.ch/fac/roos/paper_po.html><span
-style="display:none">|</span>
-
- 
+London School of Economics, 13 February, <http://www.imd.ch/fac/roos/paper_po.html>
 
 Omnès R. (1999), Understanding Quantum Mechanics, Princeton, New Jersey:
 Princeton University Press
@@ -1187,7 +1177,7 @@ Organisational Life, San Francisco: Berrett Koehler
 P
 -
 
-[top of the page ^](#top)<span style="display:none">|</span>
+[top of the page ^](#top)
 
 Pagels H. (1988), The Dreams of Reason: The Computer and the Rise of the
 Sciences of Complexity, New York: Simon and Schuster
@@ -1304,7 +1294,7 @@ School Press
 S
 -
 
-[top of the page ^](#top)<span style="display:none">|</span>
+[top of the page ^](#top)
 
 Sarkar M., Butler B. and Steinfield C. (1998), ‘Cybermediaries in
 Electronic Marketspace: Toward Theory Building’, Journal of Business
@@ -1352,7 +1342,7 @@ Slocum K. R. and Frondorf D. S. (1997), Developing Knowledge Through
 Dialogue: The SENCORP Management Model, Strategy & Complexity Seminar,
 London School of Economics, 3 December,
 
-<http://www.lse.ac.uk/lse/complex><span style="display:none">|</span>
+<http://www.lse.ac.uk/lse/complex>
 
 Smithson S., Baskerville R. and Ngwenyama O. (1994), 'Perspectives on
 Information Technology and New Emergent Forms of Organizations’,
@@ -1400,7 +1390,7 @@ University of Chicago Press
 T
 -
 
-[top of the page ^](#top)<span style="display:none">|</span>
+[top of the page ^](#top)
 
 Teece, D. J., Pisano G. and Shuen A. (1994), ‘Dynamic Capabilities and
 Strategic Management’, Strategic Management Journal, 18, 509-533
@@ -1457,7 +1447,7 @@ Orion Business Books
 V
 -
 
-[top of the page ^](#top)<span style="display:none">|</span>
+[top of the page ^](#top)
 
 van der Heijden K. (1996), Scenarios: The Art of Strategic Conversation,
 Chichester: John Wiley
@@ -1478,7 +1468,7 @@ Venables M. and Bilge U. (1998), Complex Adaptive Modelling at J
 Sainsbury: The SimStore Supermarket Supply Chain Experiment, Strategy &
 Complexity Seminar, London School of Economics, 30 March,
 
-<http://www.lse.ac.uk/lse/complex><span style="display:none">|</span>
+<http://www.lse.ac.uk/lse/complex>
 
 Vickers G. (1968), Value Systems and Social Process, London: Tavistock
 Publications
