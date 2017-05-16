@@ -30,6 +30,7 @@ layout: default
     <!-- List documents -->
     {% assign path_to_docs = page.path_to_docs | replace:'$BUCKET', site.path_to_bucket %}
     {% include list-files.html files=page.docs heading="Documents" path=path_to_docs %}
+    {% include list-files.html files=page.audio heading="Audio files" path=site.path_to_audio_files %}    
 
     {% for session in page.sessions %}
       <div class="session">

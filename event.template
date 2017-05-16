@@ -4,7 +4,10 @@ category:
 description: # Markdown.
 youtube_playlist: 
 venue: 
-img_path: # No training slash. Then use "$IMG_PATH/" elsewhere in this page.
+img_path: # No trailing slash. Then use "$IMG_PATH/" elsewhere in this page.
+path_to_docs: # Must end with trailing slash.
+docs: # List of document filenames (to be found at path_to_docs/filename)
+audio: # List of audio filenames.
 sessions:
 - 
   title: 
