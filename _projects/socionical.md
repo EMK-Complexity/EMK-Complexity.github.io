@@ -55,3 +55,17 @@ The heatmap and the corresponding visualization have been realized by Martin Wir
 Prof. Eve Mitleton-Kelly (director of the Complexity Group at the London School of Economics) was involved in the development as policy maker.
 
 The overall system allows emergency services to gain an almost-live insight into the crowd density at large scale events. The software has been developed as a part of the Socionical research project.
+
+
+## Related events
+
+<div class="events-listing">
+  <div class="events-listing-group">
+    {% assign events = site.events | where:"project","SOCIONICAL" %}
+    <ul class="events-listing-posts">
+      {% for event in events %}
+        {% include post-listing-entry.html post=event %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -3,6 +3,7 @@ title:
 end_date: 
 category: 
 description: # Markdown.
+project: # e.g. SOCIONICAL.  Will be made lowercase and have '.html' added to find page.
 youtube_playlist: 
 venue: 
 img_path: # No trailing slash. Then use "$IMG_PATH/" elsewhere in this page.

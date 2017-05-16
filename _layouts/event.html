@@ -34,6 +34,10 @@ layout: default
       {% if page.external_website %}
         | <a href="{{ page.external_website }}">External website</a>
       {% endif %}
+      {% if page.project %}
+        
+        | Project: <a href="/projects/{{ page.project | downcase }}.html">{{ page.project }}</a>
+      {% endif %}
     </p>
   </header>
 
