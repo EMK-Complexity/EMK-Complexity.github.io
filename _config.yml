@@ -35,7 +35,7 @@ timezone: Europe/London
 header_pages:
   - events.html
   - publications.md
-  - projects.html
+  - projects.md
   - complexity_guide.md
   - about.html
   

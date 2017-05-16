@@ -12,3 +12,5 @@ permalink: projects/
     {{ project.excerpt | markdownify }}
   </div>
 {% endfor %}
+
+

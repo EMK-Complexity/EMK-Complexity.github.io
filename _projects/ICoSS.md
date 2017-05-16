@@ -63,65 +63,257 @@ A multi-disciplinary group of International Expert Advisors from academia and bu
 
 ## Research Team
 
-Project Director and Principal Investigator: **Eve Mitleton-Kelly**
+The Research Team is part of the Complexity Group, within the LSE's Social Psychology Department. The Group has attracted research funding from: BT, Citigroup (New York), GlaxoWellcome UK, the Humberside TEC, Shell (International and Shell Internet Works), World Bank (Washington DC), Astra Zeneca, and the EPSRC on four research projects.
+
+
+### Project Director and Principal Investigator
+
+#### Eve Mitleton-Kelly
 
 ![Eve Mitleton-Kelly]($IMG_PATH/eve_icon.jpg)
 
-Founder and Director of the Complexity Research Programme, LSE; Coordinator of Link with Industry & Government, in the Europena Network of Excellence called "Exystence"
+Founder and Director of the Complexity Research Programme, LSE; Visiting Professor, Open University; Coordinator of Links with Industry & Government, in the European Network of Excellence called "Exystence" ;
 
-Executive Co-ordinator and Director of SOL-UK (London).
+Executive Co-ordinator and Director of SOL-UK (London), the London-based group of the global network Society for Organisational Learning.
 
-Co-investigators: **Prof. Ian Angell**
+### Co-investigators
 
-Professor of Information Systems, LSE, and
+#### Prof. Ian Angell
 
-**Prof. Frank Land**
+Professor of Information Systems, LSE
 
-Visiting Professor of Information Management, LSE and
+#### Prof. Frank Land
 
-Leeds Metropolitan University
+Visiting Professor of Information Management, LSE and Leeds Metropolitan University
 
-**Dr. Janis Kallinikos**
+#### Dr. Janis Kallinikos
 
 Department of Information Systems, LSE;
 
 Expert in organization theory, cognition and technology
 
-Research Officer: **Urooj Amjad**
+#### Professor Gerard de Zeeuw
+
+Professor at the University of Lincoln (area: research in business and law; since 1994); Professor Emeritus of the University of Amsterdam (area: complex social systems, in particular the mathematical modelling of innovation; since 1973)
+
+Address: University of Lincoln, Brayford Pool, Faculty of Business and Law, Bridge House, Rm 3212\. Private telephone: 01522 738257
+
+Nationality: Dutch
+
+Date of birth: March 11, 1936
+
+Contribution to the project: Support to data analysis. General methodological information. Theories of interaction and complexity
+
+Publishing activity: Co-editor (with Nolas, Garcia-Lorenzo and Sell-Trujillo) of a special issue of the World Futures Journal on Complexity and Innovation
+
+Zeeuw, G. de (2004), Self-organisation as quality control in inquiry. Kybernetes, 33-9/10, p. 1411-1418
+
+Knowledge is defined as the result of successful attempts to transfer expected effort in the future to effort spent in the present. The less effort remains to be spent in the future, the more knowledge is exhaustive and complete. It is shown that some efforts remain necessary in the future for accidental reasons, e.g. to correct mistakes, to estimate parameters, to act. Some efforts will also be required for fundamental reasons. They are needed to compensate as and when testing for exhaustiveness proves ineffective. It is argued that the need for such additional effort may be met by starting collectives as a form of pre-containment. Such collectives may include non-ordered experiences. They will maintain themselves by striving to serve as equivalents to knowledge. They help in two ways: they indicate what is needed to create which knowledge. The design of collectives serving as knowledge is linked to second order cybernetics.
+
+
+### Research Officers
+
+#### Urooj Quezon Amjad
 
 ![Urook Amjad]($IMG_PATH/urooj_icon.jpg)
 
-**Melissa Nolas**
+Nationality: American
 
-![Melissa Nolas]($IMG_PATH/melissa_icon.jpg)
+Date of birth: 10 May 1975
+
+Contribution to the project: Interviewed and analyzed various management levels_ dynamics in private and public organizations in the following key research areas:complexity, organizational change, political knowledge management, strategy, post-merger integration. Maintained strong relationships with contacts in these organizations to ensure the quality and dissemination of the research. During the project work, I independently contributed to project planning in the forms of methodological design, data gathering and analysis, and writing of academic papers as products of the project. As part of a four-person research team, and peripheries of associates, in our group and the university, I extensively coordinated my work with colleagues from various backgrounds (e.g. management, social psychology, economics, physics). One example of the inter-disciplinary collaboration is the ABM modelling questionnaire. Public presentation of our findings and work in progress were presented to both academic and business audiences, therefore tailoring the work to the needs of particular audiences.
+
+Any qualifications gained as a result of the project: Attended Flash MX website design course at Hoxton Bibliotech, London, approximately from September 2003--January 2004.
+
+Subsequent employment: Continuation of PhD at SOAS.
+
+Time spent on project: 2 yrs and 3 mos. (31 May 2002 -- 31 August 2004)
+
+
+#### Sevasti-Melissa Nolas
+
+![Sevasti-Melissa Nolas]($IMG_PATH/melissa_icon.jpg)
 
 Sevasti-Melissa Nolas has been working with the Complexity Group, on the ICoSS project, since October 2002\. Melissa's background is in linguistics and social psychology. She does qualitative research in the areas of action research, new organizational forms and community development. She is interested in the use of multimedia technology for dissemination and group work. Melissa is doing her doctoral research in the Department of Social Psychology, LSE.
 
-Administrative Co-ordinator: **Slavica Savic**
+Contribution to the project: I supported the project in all aspects of the research process, from data collection & analysis to theory development and knowledge dissemination via conference presentations and journal publications, as well as relationship development with research partners and presentations at research seminars.
+
+Aside from the general and expected support and contribution to the ICoSS project I was responsible for:
+
+(a) proposing a feedback/evaluation dimension to the existing research design, and carrying out said evaluation. This evaluation was carried out with the research partner I had been working with and involved 14 semi-structured interviews with the group of managers who had participated in the collaborative action research with us. The evaluation was important for two reasons: firstly, it gave us a greater insight into the action research process from the point of view of the participating members and secondly, it allowed me to begin a theoretical exploration of some of the processes and implications involved in carrying out action research, processes and implications which often receive little, or no, attention (see Nolas (forthcoming-2005) 'Learning as support for organizational innovation: possibilities and limitations' in World Futures Journal: Special Issue on Complexity and Innovation).
+
+(b) designing (with the contribution of my colleague Urooj Amjad) the questionnaire for the project's Agent Based Modelling. I subsequently took responsibility for commissioning and overseeing the design of the online survey, the administration of the online survey and the collection of responses to be forwarded to the project's Agent Based Modeller. This contribution was vital for providing the necessary information for building the ABM.
+
+Any qualifications gained as a result of the project: no formal qualifications gained. During the second year of the project I registered on an MPhil/PhD programme in the Department of Social Psychology
+
+Subsequent employment: Research Officer on a action research project in the Department of Social Psychology . Details
+
+[www.londonmultimedia.org](http://www.londonmultimedia.org/)
+
+Time spent on project: 2 years (Oct, 1st 2002 - Aug, 31st 2004)
+
+
+### Administrative Co-ordinator
+
+#### Slavica Savic
 
 ![Slavica Savic]($IMG_PATH/slavica_icon.jpg)
 
-Has been working in the Complexity Group since 1998, running its seminars and workshops and coordinating the administration and logistics of the project
+Has been working in the Complexity Group since 1998, running its seminars and workshops and coordinating the administration and logistics of the project.
 
-Business Liaison Co-ordinator & Conceptual Architect: **Kate Hopkinson**
+Part of my contribution was to maintain strong relationships with contacts in Business and the LSE, to ensure the dissemination of the research findings. I have initiated and explored different ways of communicating and exchanging knowledge within the group and with our supporting community through websites, filming and workshops and seminars. I contributed to the project planning in various forms of team building, ensured and supported delivering of the objectives. I have initiated and chaired the monthly Plan Meetings where we regularly updated on the research outputs and objectives, developing the project's network and team support. During the last two years worked as a part time Project Manager covering the administrative side of that role.
+
+Subsequent employment: Research Officer at the London Multimedia Lab, Department of Social Psychology, LSE
+
+Time spent on project: From March 2000 to December 2004.
+
+
+### Business Liaison Co-ordinator & Conceptual Architect
+
+#### Kate Hopkinson
 
 Director of Inner Skills, will help partners identify their conceptual architectures and develop their enabling infrastructures. Kate will also provide a strong link between the business and academic partners
 
-Modelling Expert: **Dr. Ugur Bilge**
+### Modelling Expert
+
+#### Dr. Ugur Bilge
 
 Developed the Organisational Forms Simulator, an agent based network simulation and visualisation tool for exploring informal social networks, and investigating patterns of connectivity within business organisations
 
-NetMap Expert: **Prof. John Galloway**
+### NetMap Expert
+
+#### Prof. John Galloway
 
 Australia, maping Internet connectivity
 
-Artist: **Julian Burton**
+### Artist
+
+#### Julian Burton
 
 provides visual facilitation through art
 
-Associate Researcher: **Nazreen A. Subhan**
+### Associate Researcher
 
-The Research Team is part of the Complexity Group, within the LSE's Social Psychology Department. The Group has attracted research funding from: BT, Citigroup (New York), GlaxoWellcome UK, the Humberside TEC, Shell (International and Shell Internet Works), World Bank (Washington DC), Astra Zeneca, and the EPSRC on four research projects.
+#### Nazreen A. Subhan
+
+Associate Researcher, Facilitator and Change Agent:
+
+Nazreen has worked in association with the project throughout its existence, from 2000 to 2004\. She has an independent practice as a Change Agent working with individual, group, organisational change along with large scale social change. Her company is Phoenix Associates.
+
+Address: 30, Goodge Street, London W1T 2QH
+
+Contact number: 020 7631 0446
+
+Contribution to the project: Nazreen's focus was primarily on the qualitative aspects of the research process including: data collection via semi-structured interviews and analysis; ongoing development of the methodology; facilitating Reflect-Back workshops along with other types of workshops for partners, ICoSS and Complexity Group/ Programme; representing ICoSS and the work of the Complexity Group/ Programme at a variety of events.
+
+## Visiting researchers
+
+
+### Eduardo Castellano
+
+Visiting Researcher (JAN 2003 - SEPT 2003): . Superior Industrial Engineer from the University of Navarra (TECNUN), Spain; MSc in Complex Systems from the University of the Basque Country, Spain; MSc in Logistic from ICL, Spain; PhD Candidate in Supply Networks as Complex Systems from the University of the Basque Country, Spain. Researcher at IKERLAN Technological Research Centre at MCC (Industrial Organization and Production Systems Management 1998-2000; Intelligent Programming Technologies 2001-2002; Strategic Innovation Management 2003-2005), developing related research projects for the Basque Country, Spanish Science and Technology Ministry, and European Research Projects, and also consulting projects for MCC-Corporation industrial firms. Collaborator of the System Dynamics Area of the UNESCO Chair at the University Politecnica of Catalunya, Spain. Programme Committee Member in the International Agent Technology Conference HoloMAS 2003\. Main expertise: System Thinking, Complexity, and Network Theory applied to the fields of Firms and Corporate Management (New Organizational Forms) and Modelling (Strategic Decision Support Learning Laboratories - system dynamics and agent-based-modelling).
+
+Address: IKERLAN Technological Research Centre, Pº Arizmendiarrieta, Mondragón, Basque Country, Spain. Telephone: 00-34-943.712400 (ext. 341). Email:
+
+[ECastellano@ikerlan.es](mailto:ECastellano@ikerlan.es)
+
+Nationality: Spanish
+
+Contribution to the project: Shell FSTO Case Analysis from the Perspective of the Complexity Sciences and the Exploration-Exploitation Cycle Framework. Prepare Shell FSTO company specific framework of enabling infrastructures as a flexible organisation able to co-evolve in sympathy with its changing environment in order to avoid constant future restructuring due to centralisation-decentralisation dynamics. Linking Complexity and New Organizational Forms & Networks.
+
+Activities:
+
+ICoSS Project Presentations and Publications
+
+Presentations…
+
+Castellano, E. 2003\. "Applying Complexity Principles and the Exploration vs. Exploitation Cycle Framework to the Analysis of FSTO Organizational Dilemmas". LSE Complexity Research Programme Workshop, 18th June. London School of Economics (UK)
+
+Castellano, E. 2003\. New Organizational Forms and Networks Literature Review. LSE Complexity Research Programme Working Paper
+
+Castellano, E. 2003\. CONNECTIVITY. LSE Complexity Research Programme Workshop, 15th July. London School of Economics (UK)
+
+Castellano, E. 2003\. Linking SNA and ABM. LSE Complexity Research Programme Workshop, 3rd April. London School of Economics (UK)
+
+Expected Publications for 2005…
+
+"Applying Complexity Principles and the Exploration vs. Exploitation Cycle Framework to the Analysis of Centralisation-Decentralisation Organizational Dilemmas"
+
+"Social Network Mapping, and Organizational Unbalanced Profiles, as Validation Tools to Predict Unexpected Behavioral Exaptations in Agent Based Models"
+
+Organization of Complexity Seminars
+
+Exystence Complexity Seminar. Bilbao, Oct. 2003: "COMPLEXITY AS AN ENABLER OF INTRA AND INTER ORGANIZATIONAL NETWORK DEVELOPMENT"
+
+Exystence:
+
+[www.complexityscience.org](http://www.complexityscience.org/)
+
+Presentations:
+
+[www.lse.ac.uk/complexity](http://www.lse.ac.uk/complexity)
+
+Development of a Complexity Research Programme at Mondragón (MCC), named as the Mondragón Complexity Node
+
+Partners:
+
+LSE:
+
+[www.lse.ac.uk/complexity](http://www.lse.ac.uk/complexity)
+
+IKERLAN:
+
+[www.ikerlan.es](http://www.ikerlan.es/) (MCC: [www.mcc.es](http://www.mcc.es/))
+
+MIK:
+
+[www.mik.es](http://www.mik.es/) (MCC: [www.mcc.es](http://www.mcc.es/))
+
+Complexity Node (C-Node) Goal: "This C-Node works from an action research approach. Therefore, from the academic towards practical perspective, we study how complexity, system thinking and network theory help us to understand, design and manage the dynamic organizational structures, the intra-inter organizational network relationships and their enabling frameworks. And, on the other hand, the C-Node uses these experiences as case studies, from a practical towards academic perspective, in order to extend these theories due to the feedback from real organizational practices."
+
+Projects Launched:
+
+(Approved…)
+
+TITTLE: Computational Lab for the Design and Development of Complex Supply Networks
+
+FUNDED BY: Spanish R&D National Council
+
+DURATION: 2004-2007
+
+PARTNERS: CIGIP-UPV, IKERLAN, London School of Economics, Universidad de Barcelona, IIIA-CSIC
+
+(In process of evaluation…)
+
+TITTLE: Innovative co-evolutionary framework for SMEs to facilitate continuous restructuring
+
+FUNDED BY: European Social Fund - Call VP/2003/021: Innovative Approaches to the Management of Change
+
+DURATION: 2005-2007
+
+PARTNERS: AiZabala, MIK, IKERLAN, London School of Economics, ESTIA, Chambers of Commerce (SP: Navarra, Cantabria, Alava. FR: Baione. Czech Republic)
+
+### Ruben Bauer
+
+D.Sc. (Federal University of Rio de Janeiro, 2005)
+
+Nationality: Brazilian
+
+Date of birth: 24 July 1962
+
+Contribution to the project: Paper "Organizations, Knowledge, Complexity" (submitted for publication). Authors: BAUER, Ruben, VALLE, Rogerio, MITLETON-KELLY, Eve. Abstract: In a recursive progression, this article pursues three themes: the ways in which external and internal complexities are addressed in organizations; the different kinds of knowledge and their relevance to organizations; and the validity of applying, in organizations, concepts originating in what is called complexity theory. It then outlines how to go beyond traditional organization theories, which are directed to resolving or reducing complexity, on an approach that both welcomes and benefits from it.
+
+Any qualifications gained as a result of the project: The case study of my D.Sc. thesis was one of the ICoSS business partners, thus the project had been a crucial source for my doctorate program.
+
+Subsequent employment: Ministry of Public Administration and Planning, Brazilian Government.
+
+Time spent on project: From April, 1st 2003 to June, 30st 2004)
+
+Contact details:
+
+* [ruben.bauer@planejamento.gov.br](mailto:ruben.bauer@planejamento.gov.br)
+* 55-61-4294906
+
 
 ### International Team of Advisors
 
