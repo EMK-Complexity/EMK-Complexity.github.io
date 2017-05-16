@@ -1,0 +1,15 @@
+<div class="member-profile" itemprop="member" itemscope itemtype="http://schema.org/Person">
+  {% if include.member.image %} 
+    <p> <img src="/images/{{ include.member.image }}"/> </p>
+  {% endif %}
+  <div class="member-profile-text">
+    <p><strong>
+        <span itemprop="honorificPrefix">{{ include.member.title }}</span>
+        <span itemprop="name">{{ include.member.name }}</span>
+    </strong></p>
+    <p itemprop="jobTitle"> {{ include.member.job }} </p>
+    {% if include/member.profile_url %} 
+      <p> <a href="{{ include.member.profile_url }}">Full profile</a> </p>
+    {% endif %}
+  </div>
+</div>

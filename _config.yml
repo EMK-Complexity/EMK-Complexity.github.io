@@ -37,7 +37,7 @@ header_pages:
   - publications.md
   - projects.md
   - complexity_guide.md
-  - about.html
+  - about.md
   
 excerpt_separator: <!--break-->
 
