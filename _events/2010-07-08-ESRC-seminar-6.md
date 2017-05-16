@@ -16,5 +16,7 @@ docs:
 - ESRC-ComplexitySem6_LSE_ApplicationForm_version25June10.doc
 - ESRC-ComplexitySem6_LSE_FerschaSlides.pdf
 - ESRC-ComplexitySem6_LSE_Flyer_version28June10.pdf
+audio:
+- 20140912_esrc6_onTheGround.mp3
 ---
 
