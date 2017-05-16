@@ -21,7 +21,7 @@ team_members:
     profile_url: http://www.lse.ac.uk/researchAndExpertise/units/complexity/aboutus/Staff/Dr-Ugur-Bilge.aspx
 ---
 
-<span itemscope itemtype="http://schema.org/Organisation">
+<span itemscope itemtype="http://schema.org/Organization">
 <span itemprop="name" style="display:none;">EMK Complexity Group</span>
 
         
