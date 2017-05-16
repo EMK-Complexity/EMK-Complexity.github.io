@@ -21,13 +21,13 @@ The Complexity Group at the London School of Economics has been working since 19
 
 Our academic network includes the following disciplines: anthropology, biology, economics, information systems, mathematics, physics, psychology, sociology and philosophy. The Group has strong links with the Santa Fe Institute, NECSI and PLEXUS in the USA and with several universities and research institutions world-wide. The Group Director, Eve Mitleton-Kelly, is also Coordinator of Links with Industry and Government for the new European Network of Excellence Exystence, funded by the EU, which started in April 2002\. She is also a Director of the Complexity Society, a UK-based Network of Networks on complex systems.
 
-1\. The Complexity Research Programme includes three completed (a - c), and one current (d) research projects funded by the EPSRC (Engineering & Physical Science Research Council). The four projects are studying:
+1\. The Complexity Research Programme includes four completed (a - c) research projects funded by the EPSRC (Engineering & Physical Science Research Council). The four projects are studying:
 
 (a & b) The relationship between information systems development and the changing business process. Legacy Systems Project.
 
 (c) The initial product definition stage in the Aerospace industry, focusing on trust, creativity and risk in inter-organisational relationships. The Aerospace Project was a joint effort with Warwick Manufacturing Group and Cranfield Ecotechnology Centre. The business partners included BAE Systems, DERA, GEC/Marconi, HS Marston, Hunting Engineering, Lucas, Rolls-Royce and Smith Industries.
 
-(d) The conditions (social, cultural, technical, political and economic) that will facilitate the emergence of a new organisational form or new ways of organising. [The ICoSS Project](/projects/icoss.html) will apply the principles of complexity to co-create with our business partners, company-specific frameworks, to help them co-evolve with a constantly changing environment.
+(d) The conditions (social, cultural, technical, political and economic) that will facilitate the emergence of a new organisational form or new ways of organising. [The ICoSS Project](/projects/icoss.html) applied the principles of complexity to co-create with our business partners, company-specific frameworks, to help them co-evolve with a constantly changing environment.
 
 The [ICoSS Project](/projects/icoss.html) is the largest EPSRC award given to the LSE and was given the highest priority by the examining Panel. The industrial partners are BT, Norwich Union Life and Rolls-Royce Marine. NU and RRM have both undergone mergers and are focussing on integration and the creation of a new organisational form, while BT is exploring the interface between different lines of business.
 
