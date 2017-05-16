@@ -1,5 +1,6 @@
 ---
 title: "European Conference on Complex Systems (ECCS ‘12)"
+end_date: 2012-09-07
 category: 
 description: # Markdown.
 youtube_playlist: 

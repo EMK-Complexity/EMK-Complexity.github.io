@@ -1,5 +1,6 @@
 ---
 title: First International Summer Institute in Complexity Science and Health Systems
+end_date: 2015-06-25
 category: 
 description: |
   Organised by the WHO Collaborating Centre for Complexity Science for Health Systems.
