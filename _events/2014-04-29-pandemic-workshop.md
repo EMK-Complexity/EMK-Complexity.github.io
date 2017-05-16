@@ -13,6 +13,12 @@ description: |
     Deutsche Bank in conjunction with Kings College London, London School of Economics and World Economic Forum Global Agenda Councils on Catastrophic Risks and Complex Systems will be conducting a ‘Pandemic Workshop’ to be hosted on Tuesday 29th April 2014 at Deutsche Bank in London.
 path_to_docs: $BUCKET/events/2010/ # include trailing slash
 docs:
+sessions:
+-
+    title: Future Pandemic Modelling Objectives
+    presenters:
+      - name: Prof. Eve Mitleton-Kelly
+    hide: true
 ---
 
 # Programme

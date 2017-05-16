@@ -22,8 +22,10 @@ Arguments:
       {% endunless %}
 
       <!-- modify link text -->
-      {% assign title_text = "'" | append: include.session.title | append: "' at the " %}
-      {% assign link_text = link_text | prepend: title_text %}
+      {% if include.session.title %}
+        {% assign title_text = include.session.title | append: " - " %}
+        {% assign link_text = link_text | prepend: title_text %}
+      {% endif %}
     {% endif %}
     <a class="post-link" href="{{ href }}">
       {{ link_text }}

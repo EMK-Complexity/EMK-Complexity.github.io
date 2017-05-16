@@ -33,6 +33,7 @@ layout: default
     {% include list-files.html files=page.audio heading="Audio files" path=site.path_to_audio_files %}    
 
     {% for session in page.sessions %}
+      {% if session.hide %} {% continue %} {% endif %}
       <div class="session">
       <a name="{{ session.title | slugify }}"><h2 style="margin-bottom: 0em;"> {{ session.title }} </h2></a>
       {% if session.presenters %}

@@ -19,13 +19,11 @@ youtube_playlist:
 venue: University of British Columbia (Robson Square Campus) in Vancouver, British Columbia, Canada
 img_path: # No training slash. Then use "$IMG_PATH/" elsewhere in this page.
 sessions:
-- 
-  title: Presentation
+-
+  hide: true
   presenters:
     - 
       prefix: 
       name: Prof. Eve Mitleton-Kelly
       affiliation: 
-  description:
-  audio:
 ---
