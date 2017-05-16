@@ -22,11 +22,11 @@ layout: default
       {% endif %}
       {% if page.venue %}
         | Venue: 
-        <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <span itemprop="location" itemscope itemtype="http://schema.org/Place">
           <span itemprop="name">
             {{ page.venue }}
           </span>
-        </div>
+        </span>
       {% endif %}
       {% if page.youtube_playlist %}
 	| <a href="https://www.youtube.com/playlist?list={{ page.youtube_playlist }}">YouTube playlist of event</a>
