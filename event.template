@@ -1,5 +1,6 @@
 ---
 title: 
+end_date: 
 category: 
 description: # Markdown.
 youtube_playlist: 
@@ -8,6 +9,7 @@ img_path: # No trailing slash. Then use "$IMG_PATH/" elsewhere in this page.
 path_to_docs: # Must end with trailing slash.
 docs: # List of document filenames (to be found at path_to_docs/filename)
 audio: # List of audio filenames.
+external_website: # URL
 sessions:
 - 
   title: 

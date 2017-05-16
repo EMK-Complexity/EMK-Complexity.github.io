@@ -11,6 +11,11 @@ layout: default
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
       </time>
+      {% if page.end_date %}
+      <time datetime="{{ page.end_date | date_to_xmlschema }}" itemprop="datePublished">
+        - {{ page.end_date | date: date_format }}
+      </time>
+      {% endif %}
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
       {% endif %}
@@ -19,6 +24,9 @@ layout: default
       {% endif %}
       {% if page.youtube_playlist %}
 	| <a href="https://www.youtube.com/playlist?list={{ page.youtube_playlist }}">YouTube playlist of event</a>
+      {% endif %}
+      {% if page.external_website %}
+        | <a href="{{ page.external_website }}">External website</a>
       {% endif %}
     </p>
   </header>
