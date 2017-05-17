@@ -32,7 +32,7 @@ layout: default
       {% endif %}
       {% if page.youtube_playlist %}
 	| 
-        <span itemscope itemtype="http//schema.org/VideoObject">
+        <span itemprop="recordedIn" itemscope itemtype="http//schema.org/VideoObject">
           <a itemprop="contentUrl" href="https://www.youtube.com/playlist?list={{ page.youtube_playlist }}">YouTube playlist of event</a>
         </span>
       {% endif %}
