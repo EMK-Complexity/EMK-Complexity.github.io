@@ -5,8 +5,8 @@ end_time:
 category: 
 description: 
 venue: 
-path_to_docs: $BUCKET/events/2010/
-external_website: # URL
+path_to_docs: $BUCKET/events/2009/
+external_website: 
 
 docs: 
 audio: 

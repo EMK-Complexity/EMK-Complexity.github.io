@@ -13,11 +13,17 @@ docs:
   - ESRC-ComplexitySem2FeedbackCommunityEnergyUse.pdf
   - ESRC-ComplexitySem2FeedbackNotesRenewables.pdf
   - ESRC-ComplexitySem2ProvProg.pdf
-
+organisers:
+- name: Prof. Eve Mitleton-Kelly
+  affiliation: LSE
+- name: Prof. Jeff Johnson
+  affiliation: The Open University
 sessions:
 - title: "Welcome"
   presenters:
-    name: Professor Eve Mitleton-Kelly
+    -
+      name: Professor Eve Mitleton-Kelly
+      
   youtube: 4fiZCOVX_eU
   docs:
     - ESRCseminar2MitletonKellyIntroduction.pdf

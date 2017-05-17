@@ -1,6 +1,6 @@
 {% assign path_to_docs = page.path_to_docs | replace: "$BUCKET", site.path_to_bucket %}
 
-{% if include.session.organisers %}
+{% if include.session.organisers and include.session.presenters %}
   <h4>Presenters</h4>
 {% endif %}
 {% include presenters.html presenters=include.session.presenters %}
