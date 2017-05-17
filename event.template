@@ -28,7 +28,9 @@ sessions:
       role: # e.g. "Moderator: "  Was called "prefix".
       title: # e.g. Dr.
       name: # Set to "Prof. Eve Mitleton-Kelly" to include in list of Eve's presentations.
+      suffix: # e.g. OBE or MD
       affiliation: # e.g. LSE
+      url: # Home page
   description: 
   youtube: # Can be a single string or a list of strings of the YouTube video ID.
   vimeo: # List of strings of the Vimeo video ID.  e.g. "[5181341]"

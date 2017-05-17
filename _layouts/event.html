@@ -58,10 +58,12 @@ layout: default
 
     {% include presenters.html presenters=page.presenters %}
 
-    <h4>Description</h4>
-    <span itemprop="description">
-      {{ page.description | markdownify }}
-    </span>
+    {% if page.description and page.description != "" %}
+      <h4>Description</h4>
+      <span itemprop="description">
+        {{ page.description | markdownify }}
+      </span>
+    {% endif %}
 
     <!-- List documents -->
     {% assign path_to_docs = page.path_to_docs | replace:'$BUCKET', site.path_to_bucket %}
@@ -93,10 +95,12 @@ layout: default
 
         {% include presenters.html presenters=session.presenters %}
 
-        <h4>Description</h4>
-        <span itemprop="description"> 
-          {{ session.description | markdownify | replace:"$IMG_PATH",page.img_path}}
-        </span>
+        {% if session.description and session.description != "" %}
+          <h4>Description</h4>
+          <span itemprop="description"> 
+            {{ session.description | markdownify | replace:"$IMG_PATH",page.img_path}}
+          </span>
+        {% endif %}
 
         {% if session.youtube %}
           {% for youtube in session.youtube %}

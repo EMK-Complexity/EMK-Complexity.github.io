@@ -18,5 +18,8 @@ docs: # List of document filenames (to be found at path_to_docs/filename)
 audio: # List of audio filenames.
 external_website: # URL
 presenters:
-  - name: Dr Ugur Bilge
+  -
+    title: Dr
+    name: Ugur Bilge
+    url: http://www.lse.ac.uk/researchAndExpertise/units/complexity/aboutus/Staff/Dr-Ugur-Bilge.aspx
 ---

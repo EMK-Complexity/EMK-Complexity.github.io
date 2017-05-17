@@ -1,10 +1,43 @@
+{% assign name = include.person.name %}
+{% if include.person.title %}
+  {% assign title = include.person.title %}
+{% else %}
+  {% assign title = "" %}
+  {% assign name = include.person.name %}
+  {% if name contains "Sir" %}
+    {% assign name = name | remove: "Sir "%}
+    {% assign title = title | append: "Sir " %}
+  {% endif %}
+  {% if name contains "Lord" %}
+    {% assign name = name | remove: "Lord "%}
+    {% assign title = title | append: "Lord " %}
+  {% endif %}
+  {% if name contains "Prof" %}
+    {% assign name = name | remove: "Professor " | remove: "Prof. " | remove: "Prof " %}
+    {% assign title = title | append: "Professor " %}
+  {% endif %}
+  {% if name contains "Dr " or name contains "Dr. " %}
+    {% assign name = name | remove: "Dr. " | remove: "Dr " %}
+    {% assign title = title | append: "Dr" %}
+  {% endif %}
+{% endif %}
+
+
 <li itemprop="{{ include.itemprop | default: 'performer' }}" itemscope itemtype="http://schema.org/Person">
   {{ include.person.role | default: include.person.prefix }}
-  <span itemprop="honorificPrefix">{{ include.person.title }}</span>
+  {% if include.person.url %}
+    <a itemprop="url" href="{{ include.person.url }}">
+  {% endif %}
   <strong>
-    <span itemprop="name">{{ include.person.name }}</span>
+    <span itemprop="honorificPrefix">{{ title }}</span>
+    <span itemprop="name">{{ name }}</span>
+    <span itemprop="honorificSuffix">{{ include.person.suffix }}</span>
   </strong>
-  {% if person.affiliation %},
+  {% if include.person.url %}
+    </a>
+  {% endif %}  
+  {% if include.person.affiliation %}
+    -
     <span itemprop="affiliation">{{ include.person.affiliation }}</span>
   {% endif %}
 </li>

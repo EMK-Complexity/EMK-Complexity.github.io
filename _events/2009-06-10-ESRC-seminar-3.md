@@ -51,7 +51,8 @@ Management and Technology (DCMT), Cranfield University."
     - name: Roger Gardner
       affiliation: Chief Executive, Omega
     - name: Callum Thomas
-    - name: Professor Ian Poll OBE, FREng, FCGI, FAIAA, FRAeS
+    - name: Professor Ian Poll
+      suffix: OBE, FREng, FCGI, FAIAA, FRAeS
       affiliation: Cranfield University
   description: |
     <http://www.omega.mmu.ac.uk>

@@ -29,7 +29,7 @@ channel</a>.</p>
           {% assign do_not_link_to_anchor = forloop.first %}
 	  {% unless session.is_section_heading %}
 	    {% for presenter in session.presenters %}
-              {% if presenter.name == "Prof. Eve Mitleton-Kelly" %}
+              {% if presenter.name contains "Mitleton-Kelly" %}
 		{% include post-listing-entry.html post=event session=session do_not_link_to_anchor=do_not_link_to_anchor %}
 	      {% endif %}
 	    {% endfor %}

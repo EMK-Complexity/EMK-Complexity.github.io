@@ -3,10 +3,16 @@ title: Leadership and Complexity
 start_time: "14:00" # 24hr clock. Must be in quotes. No need for offset
 end_date: # year-month-day e.g. 2016-01-02
 end_time: "17:30" # 24hr clock. Must be in quotes. No need for offset
-category: 
+category:
+presenters:
+  -
+    title: Professor
+    name: Sue Richards
+    suffix: OBE
+  -
+    name: Lynne Sedgmore
+    suffix: CBE
 description: |
-  Leadership and Complexity with Professor Sue Richards OBE and Lynne Sedgmore CBE.
-
   What does leadership mean, and how can leaders behave and be different in a world increasingly characterised by complexity?
 
   Are organisations choosing the right leaders to ensure they navigate successfully a more complex world and local context? How are leaders developed and supported so that they have the capability to go beyond the conventional models and outcomes of organisational leadership?

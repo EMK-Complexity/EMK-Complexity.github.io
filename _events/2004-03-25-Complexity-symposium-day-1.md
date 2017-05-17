@@ -12,10 +12,16 @@ description: |
 
 sessions:
 
-- title: "Welcome from LSE, the European Commission & SFI"
-  presenters: 
-    - name: ""
-  description: ""
+- title: "Welcome"
+  presenters:
+    - affiliation: LSE
+      name: Eve Mitleton-Kelly
+      title: Professor
+    - affiliation: European Commission
+      name: Ralf
+    - affiliation: SFI
+      name: Robert A. Eisenstein
+      title: Dr
   youtube: V4CXtX4QTkI
 
 - title: "PART I - Prospects for Complexity Science in Helping Solve Societal Issues"
