@@ -26,6 +26,8 @@ sessions:
       name: Robert A. Eisenstein
       title: Dr
   youtube: V4CXtX4QTkI
+  docs:
+    - RDIntro.pdf
 
 - title: "PART I - Prospects for Complexity Science in Helping Solve Societal Issues"
   start_date: "2004-03-25"
@@ -44,6 +46,8 @@ sessions:
       affiliation: "Royal Zoology Department, University of Oxford"
   description: "The transmission of infection among humans or other animals, the spread of viruses or worms among computers, and the way ecosystems respond to disturbance are three examples of nonlinear dynamical systems whose behaviour depends upon the nature of the network of connections among nodes (that is individuals, computers, species, respectively). Recent and current concern about HIV/AIDS, SARS, and foot and mouth disease among livestock have prompted advances in our understanding of the interplay between network patterns and effective control measures. Separate, but ultimately related, work has recently focussed (often in the context of 'homeland security') on protecting IT networks from attack. Perhaps surprisingly, this work has made relatively little contact with older questions about ecosystem resilience. My talk aims to be an opinionated overview of all this."
   youtube: bwgj9QHYDGI
+  docs:
+    - MayOverview.doc
 
 - title: "Simulation Science and the Understanding of Large Socio-Technical Systems"
   start_date: "2004-03-25"
@@ -53,6 +57,8 @@ sessions:
       affiliation: Group Leader of the Basic and Applied Simulation Science Group of the Computing and Computational Sciences Division, Los Alamos National Laboratory
   description: "There is an increasing appreciation of the centrality of complex cascades of interactions among various (psychological, social, physical, and technological) elements of human systems and our environment. Dr Barrett will introduce a perspective on foundations of interaction-based systems and interaction-based computing as the natural basis for the simulation and analysis of in large socio-technical systems. The approach is interesting theoretically and also useful in many important ways, and he will emphasize one of them: scaling practical simulations of operating civil infrastructures that involve interactions among very large numbers (106 to 1012) of heterogeneous, interacting entities."
   youtube: pldY4VGsxx0
+  docs:
+    - Barratt.pdf
 
 - title: "PART II - Prospects for Complexity Science in Helping Solve Business and Technology Problems"
   start_date: "2004-03-25"
@@ -82,6 +88,8 @@ sessions:
       affiliation: President and Chief Executive Officer, MPSI Systems Inc.
   description: "Retail performance depends largely upon the retailer's ability to manage the store-customer interface across all stores in a retail network; made more complex by interactions between proximal stores and consumers. Sustained retail success requires simultaneous consideration of the impact of all decisions at all points in the retail network. Simulation models have offered decades of scientific support for managing this complex environment. Optimization methods married to simulation systems now offer a further, significant improvement for managing complexities of the store-customer interface."
   youtube: 8OfE0iv3z0Q
+  docs:
+    - BryGrospresent.pdf
 
 - title: "From the scale-free Web to Avogadro-scale Engineering"
   start_date: "2004-03-25"
@@ -91,7 +99,8 @@ sessions:
       affiliation: Professor in the School of Engineering and Computer Science, Hebrew University and Exystence Network of Excellence
   description: ""
   youtube: sRhKNeDftvM
-
+  docs:
+    - Kirkpatrickpresentation.pdf
 
 
 - title: "PART III -- Current Research & Future Directions in Complexity Science"
@@ -118,6 +127,8 @@ sessions:
       name: Dr. Robert A. Eisenstein
       affiliation: President, Santa Fe Institute
   description: "During the last two decades, the essential role of complex interactions in science, government and business -- and in human interactions generally -- has become very widely appreciated. In parallel, the progress made in developing new analytical and computational tools has made possible some significant progress in many areas. In this talk Dr Eisenstein will outline some potential new directions for the scientific program at the Santa Fe Institute, and its connections to fundamental science, to understanding some aspects of human behavior, and to decisions regarding social policy. Prospects for international collaboration will be discussed as well."
+  docs:
+    - REisenstein.pdf
 
 - title: "What Did The Internet Ever Do For Us?"
   start_date: "2004-03-26"
@@ -136,6 +147,8 @@ sessions:
       affiliation: Distinguished Research Professor, Santa Fe Institute; Senior Fellow, Los Alamos National Laboratory
   description: "Dr. West will explore a quantitative conceptual framework for understanding many of the generic properties of living organisms from molecules and cells to ecosystems. The paradigm presented will be developed as a way of viewing many related phenomena and will include a discussion of the cardiovascular system, trees and plants, growth, aging and mortality, sleep, genome size, cities and corporate structures."
   youtube: UZ-jmFAt1SA
+  docs:
+    - GeoffWestpresentation.pdf
 
 - title: "The Low Intelligence Approach to Economics: Simple Laws Relating Order Flow to Statistical Properties of Markets"
   start_date: "2004-03-26"
@@ -145,6 +158,8 @@ sessions:
       affiliation: McKinsey Research Professor, Santa Fe Institute
   description: "While much of economics appropriately focuses on the strategic interactions of agents, there are some situations where this is dominated by other factors, such as market structure. Prof. Farmer will present a model of the continuous double auction based on zero-intelligence noise traders. This can be used to derive simple laws relating order flow to statistical properties of markets, such as volatility and the average bid-ask spread, that agree remarkably well with data from the London Stock Exchange. He will then discuss the effects of adding intelligence, simulating an ecology of arbitrage and exploring its effect on prices."
   youtube: TMgWGazC1o8
+  docs:
+    - DoyFarmer.pdf
 
 - title: "PART IV"
   start_date: "2004-03-26"
@@ -169,6 +184,8 @@ sessions:
     ![]($IMG_PATH/sympo5publik2eve149x119.jpg)
     ![]($IMG_PATH/Sympo9coffee149x112.jpg)
   youtube: JqgVKlr63ek
+  docs:
+    - LucSteelspresent.pdf
 
 - title: "Where Does Wealth Come From? A Complexity Economics Perspective"
   start_date: "2004-03-26"
@@ -178,6 +195,8 @@ sessions:
       affiliation: Senior Advisor, McKinsey & Company, London, SFI Business Network
   description: "One of the most stunning empirical facts in economics is the explosive growth in worldwide wealth over the past 250 years, and the related growth in the complexity of the global economy. Conventional, particularly neoclassical, economic theories have a very difficult time explaining this pattern of growth. This talk will explore what complexity science might offer in explaining this puzzle; most notably perspectives from evolutionary theory, thermodynamics, and cognitive science."
   youtube: xXkjXnok2Tk
+  docs:
+    - EricBeinhockerpres.pdf
 
 - title: "Plenary Session and close of symposium"
   start_date: "2004-03-26"
