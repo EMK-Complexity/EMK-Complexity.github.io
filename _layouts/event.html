@@ -25,13 +25,8 @@ layout: default
       {% endif %}
       {% if page.venue %}
         | Venue: 
-        <span itemprop="location" itemscope itemtype="http://schema.org/Place">
-          <span itemprop="name">
-            {{ page.venue }}
-          </span>
-          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <!-- Need an address - even an empty address - to get microdata to validate! -->
-          </span>
+        <span itemprop="location">
+          {{ page.venue }}
         </span>
       {% endif %}
       {% if page.youtube_playlist %}
@@ -61,45 +56,52 @@ layout: default
     {% for session in page.sessions %}
       {% if session.hide %} {% continue %} {% endif %}
       <div class="session" itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
-      <a name="{{ session.title | slugify }}">
-        <h2 style="margin-bottom: 0em;" itemprop="name"> {{ session.title }} </h2>
-      </a>
-      {% if session.presenters %}
-        <div style="margin-bottom:1em;">
-	{% for presenter in session.presenters %}
-	  <p style="margin-bottom:0em;" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-	    <span itemprop="jobTitle">{{ presenter.prefix }}</span>
-	    <strong>
-              <span itemprop="name">{{ presenter.name }}</span>
-            </strong>
-            {% if presenter.affiliation %},
-              <span itemprop="affiliation">{{ presenter.affiliation }}</span>
-            {% endif %} 
-	  </p>
-	{% endfor %}
-        </div>
-      {% endif %}
-      <span itemprop="description"> 
-        {{ session.description | markdownify | replace:"$IMG_PATH",page.img_path}}
-      </span>
 
-      {% if session.youtube %}
-	{% for youtube in session.youtube %}
-	  <p><iframe width="740" height="416" src="https://www.youtube.com/embed/{{ youtube }}?list={{ page.youtube_playlist }}" frameborder="0" allowfullscreen></iframe></p>
-	{% endfor %}
-      {% endif %}
+        <!-- subEvent microdata needs location and startDate to pass validation. -->
+        <span style="display:none">
+          <span itemprop="location"> {{ page.venue }} </span>
+          <span itemprop="startDate" content="{{ page.date | date_to_xmlschema }}"></span>
+        </span>
+        
+        <a name="{{ session.title | slugify }}">
+          <h2 style="margin-bottom: 0em;" itemprop="name"> {{ session.title }} </h2>
+        </a>
+        {% if session.presenters %}
+          <div style="margin-bottom:1em;">
+          {% for presenter in session.presenters %}
+            <p style="margin-bottom:0em;" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="jobTitle">{{ presenter.prefix }}</span>
+              <strong>
+                <span itemprop="name">{{ presenter.name }}</span>
+              </strong>
+              {% if presenter.affiliation %},
+                <span itemprop="affiliation">{{ presenter.affiliation }}</span>
+              {% endif %} 
+            </p>
+          {% endfor %}
+          </div>
+        {% endif %}
+        <span itemprop="description"> 
+          {{ session.description | markdownify | replace:"$IMG_PATH",page.img_path}}
+        </span>
 
-      {% if session.vimeo %}
-	{% for video in session.vimeo %}
-	  <p><iframe src="https://player.vimeo.com/video/{{ video }}" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
-	{% endfor %}
-      {% endif %}
+        {% if session.youtube %}
+          {% for youtube in session.youtube %}
+            <p><iframe width="740" height="416" src="https://www.youtube.com/embed/{{ youtube }}?list={{ page.youtube_playlist }}" frameborder="0" allowfullscreen></iframe></p>
+          {% endfor %}
+        {% endif %}
 
-      <!-- List audio files -->
-      {% include list-files.html files=session.audio heading="Audio files" path=site.path_to_audio_files %}
+        {% if session.vimeo %}
+          {% for video in session.vimeo %}
+            <p><iframe src="https://player.vimeo.com/video/{{ video }}" width="740" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+          {% endfor %}
+        {% endif %}
 
-      <!-- List documents -->
-      {% include list-files.html files=session.docs heading="Documents" path=path_to_docs %}
+        <!-- List audio files -->
+        {% include list-files.html files=session.audio heading="Audio files" path=site.path_to_audio_files %}
+
+        <!-- List documents -->
+        {% include list-files.html files=session.docs heading="Documents" path=path_to_docs %}
 
       </div>
     {% endfor %}
