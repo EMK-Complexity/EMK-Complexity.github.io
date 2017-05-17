@@ -67,8 +67,7 @@ layout: default
       {% if session.presenters %}
         <div style="margin-bottom:1em;">
 	{% for presenter in session.presenters %}
-          <span itemprop="performer" itemscope itemtype="http://schema.org/Person">
-	  <p style="margin-bottom:0em;">
+	  <p style="margin-bottom:0em;" itemprop="performer" itemscope itemtype="http://schema.org/Person">
 	    <span itemprop="jobTitle">{{ presenter.prefix }}</span>
 	    <strong>
               <span itemprop="name">{{ presenter.name }}</span>
