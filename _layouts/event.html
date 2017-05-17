@@ -25,7 +25,7 @@ layout: default
       {% endif %}
       {% if page.venue %}
         | Venue: 
-        <span itemprop="location">
+        <span itemprop="location" itemscope itemtype="http://schema.org/Text">
           {{ page.venue }}
         </span>
       {% endif %}
@@ -59,7 +59,7 @@ layout: default
 
         <!-- subEvent microdata needs location and startDate to pass validation. -->
         <span style="display:none">
-          <span itemprop="location"> {{ page.venue }} </span>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Text"> {{ page.venue }} </span>
           <span itemprop="startDate" content="{{ page.date | date_to_xmlschema }}"></span>
         </span>
         
