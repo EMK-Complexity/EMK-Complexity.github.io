@@ -68,7 +68,7 @@ layout: default
               <!-- An address - even an empty address - is required for the microdata to pass validation! -->
             </span>
           </span>
-          <span itemprop="startDate" content="{{ page.date | date_to_xmlschema }}"></span>
+          <span itemprop="startDate" content="{{ page.date | date_to_xmlschema | truncate: 11, '' }}"></span>
         </span>
         
         <a name="{{ session.title | slugify }}">
