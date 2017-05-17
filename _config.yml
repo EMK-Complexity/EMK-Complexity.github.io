@@ -75,3 +75,7 @@ defaults:
 
 path_to_audio_files: http://emk-complexity.s3.amazonaws.com/audio/ # with trailing slash
 path_to_bucket: http://emk-complexity.s3.amazonaws.com # no trailing slash
+
+exclude:
+  - _events/event.template
+  - _events/event.template.simple
