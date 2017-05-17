@@ -13,7 +13,7 @@ layout: default
       </time>
       {% if page.end_date %}
         -
-        <time itemprop="endDate" content="{{ page.end_date | date_to_xmlschema }}">
+        <time itemprop="endDate" content="{{ page.end_date | date_to_xmlschema | truncate: 10 }}">
           {{ page.end_date | date: date_format }}
         </time>
       {% endif %}
