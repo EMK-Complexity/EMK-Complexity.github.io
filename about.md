@@ -23,8 +23,12 @@ microdata: 'itemscope itemtype="http://schema.org/Organization"'
 ---
 
 <meta itemprop="name" content="EMK Complexity Group"/>
+<link itemprop="url" href="/"/>
+<link itemprop="sameAs" href="/"/>
 
+<span itemprop="description">
 The EMK Complexity Group has been working for over 20 years, with organisations in the private and public sectors to address practical complex problems. In the process it has developed a theory of complex social systems and an integrated methodology using both qualitative and quantitative tools and methods.
+</span>
 
 ## Organisations we have worked with
 
