@@ -1,8 +1,8 @@
 ---
 title: 
-start_time: # No need for offset
+start_time: # 24hr clock. Must be in quotes. No need for offset
 end_date: 
-end_time: # No need for offset
+end_time: # 24hr clock. Must be in quotes. No need for offset
 category: 
 description: # Markdown.
 project: # e.g. SOCIONICAL.  Will be made lowercase and have '.html' added to find page.

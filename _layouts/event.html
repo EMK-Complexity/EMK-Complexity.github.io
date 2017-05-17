@@ -61,12 +61,17 @@ layout: default
               <!-- An address - even an empty address - is required for the microdata to pass validation! -->
             </span>
           </span>
-          {% include time.html itemprop="startDate" date=page.date %}
         </span>
         
         <a name="{{ session.title | slugify }}">
           <h2 itemprop="name"> {{ session.title }} </h2>
         </a>
+
+
+        {% include time.html itemprop="startDate" date=session.start_date time=session.start_time %}
+        {% assign session_end_date = session.end_date | default: session.start_date %}
+        {% include time.html itemprop="endDate" date=session_end_date time=session.end_time %}
+
         {% if session.presenters %}
           <div style="margin-bottom:1em;">
           {% for presenter in session.presenters %}

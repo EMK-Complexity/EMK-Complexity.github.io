@@ -15,18 +15,21 @@
   {% assign date = page.date %}
 {% endif %}
 
-<!-- strip the time off the datetime string -->
-{% assign date = date | date_to_xmlschema | truncate: 10, '' %}
+{% comment %} Strip the time off the datetime string {% endcomment %}
+{% assign date = date | date: "%Y-%m-%d" %}
 
 {% if include.time %}
   {% assign datetime = date | append: "T" | append: include.time | date_to_xmlschema %}
-  {% assign date_format = date_format | append: " %H:%M" %}
+  {% if date_format != "" %}
+    {% assign date_format = date_format | append: ", " %}
+  {% endif %}
+  {% assign date_format = date_format | append: "%H:%M" %}
 {% else %}
   {% assign datetime = date %}
 {% endif %}
 
 <time itemprop="{{ include.itemprop }}" datetime="{{ datetime }}">
-  {% if date_format != "" %}
+  {% if include.date or include.time %}
 
     {% if include.itemprop == "endDate" %}
       -

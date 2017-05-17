@@ -32,7 +32,7 @@ exclude:
 
 timezone: Europe/London
 minima:
-  date_format: "%d %b %Y"
+  date_format: "%a %e %b %Y"
 
 header_pages:
   - events.html

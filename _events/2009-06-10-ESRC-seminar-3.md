@@ -1,6 +1,8 @@
 ---
 title:  "ESRC complexity seminar 3: Complexity: a Framework for Policy and Decision Support:
 Research, Adaptation and Learning in Social Systems"
+start_time: "09:30"
+end_time: "17:00"
 category: ESRC complexity seminar series
 youtube_playlist: 
 venue: Cranfield Management Research Institute, University of Cranfield
@@ -19,6 +21,8 @@ docs:
 sessions:
 -
   title: Introduction
+  start_time: "09:45"
+  end_time: "10:00"
   presenters:
     - name: Prof. Eve Mitleton-Kelly
     - name: Prof. Peter Allen
@@ -27,6 +31,8 @@ sessions:
 
 - 
   title: "Business, Transport and the Environment: the Policy Challenge"
+  start_time: "10:00"
+  end_time: "11:00"
   presenters: 
     - name: Professor Brian Collins
       affiliation: "Departmental Chief Scientific Adviser at DfT since October 2006 and at
@@ -39,6 +45,8 @@ Management and Technology (DCMT), Cranfield University."
 
 - 
   title: "OMEGA: Aviation and Environment Problem"
+  start_time: "11:15"
+  end_time: "12:30"
   presenters: 
     - name: Roger Gardner
       affiliation: Chief Executive, Omega
@@ -57,6 +65,8 @@ Management and Technology (DCMT), Cranfield University."
 
 -
   title: "Why is Policy Complex?"
+  start_time: "12:30"
+  end_time: "13:00"
   presenters:
     - name: Prof. Peter Allen
   docs:
@@ -71,6 +81,8 @@ Management and Technology (DCMT), Cranfield University."
 
 - 
   title: "Collaboration in turbulent times: catalyst for integrating complexity and simplicity?"
+  start_time: "14:00"
+  end_time: "15:00"
   presenters: 
     - name: Lucian Hudson
       affiliation: Convenor, Collaborative Strategies Network, and Special Assignment for HMG on collaboration and partnership
