@@ -44,7 +44,7 @@ layout: default
       {% endif %}
     </p>
   </header>
-  <p> TIME: {{ page.date }}</p>
+
   <div class="post-content">
 
     <span itemprop="description">
@@ -68,7 +68,7 @@ layout: default
               <!-- An address - even an empty address - is required for the microdata to pass validation! -->
             </span>
           </span>
-          <span itemprop="startDate" datetime="{{ page.date | date_to_xmlschema | truncate: 10, '' }}"></span>
+          <time itemprop="startDate" datetime="{{ page.date | date_to_xmlschema | truncate: 10, '' }}"></time>
         </span>
         
         <a name="{{ session.title | slugify }}">
