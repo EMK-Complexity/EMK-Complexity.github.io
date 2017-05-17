@@ -1,4 +1,4 @@
-<div class="member-profile" itemprop="member" itemscope itemtype="http://schema.org/Person">
+<div class="member-profile" itemscope itemtype="http://schema.org/Person">
   {% if include.member.image %} 
     {% assign imgsrc = "/images/" | append: include.member.image %}
     <img itemprop="image" src="{{ imgsrc }}" alt="{{ include.member.name }}"/>
@@ -12,5 +12,9 @@
   {% if include/member.profile_url %} 
     <p> <a itemprop="sameAs" href="{{ include.member.profile_url }}">Full profile</a> </p>
   {% endif %}
-
+  <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="EMK Complexity Group" />
+    <link itemprop="url" href="/" />
+  </span>
+  
 </div>
