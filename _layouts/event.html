@@ -32,10 +32,7 @@ layout: default
       {% endif %}
       {% if page.youtube_playlist %}
 	| 
-        <span itemprop="recordedIn" itemscope itemtype="http//schema.org/CreativeWork">
-          <meta itemprop="url" content="https://www.youtube.com/playlist?list={{ page.youtube_playlist }}"/>
-          <a href="https://www.youtube.com/playlist?list={{ page.youtube_playlist }}">YouTube playlist of event</a>
-        </span>
+        <a href="https://www.youtube.com/playlist?list={{ page.youtube_playlist }}">YouTube playlist of event</a>
       {% endif %}
       {% if page.external_website %}
         | <a itemprop="sameAs" href="{{ page.external_website }}">External website</a>
