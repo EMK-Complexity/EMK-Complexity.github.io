@@ -73,9 +73,9 @@ layout: default
         {% include time.html itemprop="endDate" date=session_end_date time=session.end_time %}
 
         {% if session.presenters %}
-          <div style="margin-bottom:1em;">
+          <ul class="presenters">
           {% for presenter in session.presenters %}
-            <p style="margin-bottom:0em;" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            <li itemprop="performer" itemscope itemtype="http://schema.org/Person">
               <span itemprop="jobTitle">{{ presenter.prefix }}</span>
               <strong>
                 <span itemprop="name">{{ presenter.name }}</span>
@@ -83,9 +83,9 @@ layout: default
               {% if presenter.affiliation %},
                 <span itemprop="affiliation">{{ presenter.affiliation }}</span>
               {% endif %} 
-            </p>
+            </li>
           {% endfor %}
-          </div>
+          </ul>
         {% endif %}
         <span itemprop="description"> 
           {{ session.description | markdownify | replace:"$IMG_PATH",page.img_path}}
