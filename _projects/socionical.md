@@ -23,6 +23,13 @@ SOCIONICAL took a parallel, multi facetted research approach. Thus, it addressed
 
 ### SOCIONICAL App
 
+#### London Olympics 2012
+
+Two Socionical apps have been developed and will be used during the Olympics. The City of London Police app will be used by visitors during the two busiest days of the Olympics. Its main application however, will be to provide information to the businesses and residents in the Square Mile (the financial district), with a special feature that will be activated if and when there is an incident, so that the Police can send geographically targeted advice to users. The ‘What’s On’ app will be used throughout the Olympics and Paralympics within the City of Westminster.
+
+The apps are available free from the Apple App Store at: [City Police](http://itunes.apple.com/gb/app/city-police/id542916818?mt=8) and [Westminster](http://itunes.apple.com/gb/app/whats-on/id545126071?mt=8).
+
+
 #### Vienna Marathon on 15 April 2012
 
 A major trial of the Socionical app was conducted during the Vienna Marathon on 15 April 2012.
