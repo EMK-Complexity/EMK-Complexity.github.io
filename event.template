@@ -9,7 +9,7 @@ project: # e.g. SOCIONICAL.  Will be made lowercase and have '.html' added to fi
 youtube_playlist: 
 venue: 
 img_path: # No trailing slash. Then use "$IMG_PATH/" elsewhere in this page.
-path_to_docs: # Must end with trailing slash.  e.g. $BUCKET/events/2012/
+path_to_docs: # $BUCKET/events/2010/ Must end with trailing slash.
 external_website: # URL
 
 docs: # List of document filenames (to be found at path_to_docs/filename)
