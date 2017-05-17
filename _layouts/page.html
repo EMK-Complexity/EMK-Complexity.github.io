@@ -8,7 +8,7 @@ layout: default
   </header>
 
   <div class="post-content">
-    {{ content | replace:"$BUCKET", site.path_to_bucket | replace:"$IMG_PATH", page.img_path }}
+    {% include replace-tokens.html input=content %}
   </div>
 
 </article>
