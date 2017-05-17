@@ -1,0 +1,29 @@
+{% if include.session.organisers %}
+  <h4>Presenters</h4>
+{% endif %}
+{% include presenters.html presenters=include.session.presenters %}
+
+{% if include.session.description and include.session.description != "" %}
+  <h4>Description</h4>
+  <span itemprop="description"> 
+    {{ include.session.description | markdownify | replace:"$IMG_PATH",page.img_path}}
+  </span>
+{% endif %}
+
+{% if include.session.youtube %}
+  {% for youtube in include.session.youtube %}
+    <p><iframe width="720" height="405" src="https://www.youtube.com/embed/{{ youtube }}?list={{ page.youtube_playlist }}" frameborder="0" allowfullscreen></iframe></p>
+  {% endfor %}
+{% endif %}
+
+{% if include.session.vimeo %}
+  {% for video in include.session.vimeo %}
+    <p><iframe src="https://player.vimeo.com/video/{{ video }}" width="720" height="414" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+  {% endfor %}
+{% endif %}
+
+<!-- List audio files -->
+{% include list-files.html files=include.session.audio heading="Audio files" path=site.path_to_audio_files %}
+
+<!-- List documents -->
+{% include list-files.html files=include.session.docs heading="Documents" path=path_to_docs %}
