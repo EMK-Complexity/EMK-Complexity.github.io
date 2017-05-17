@@ -31,6 +31,8 @@ exclude:
   - Gemfile.lock
 
 timezone: Europe/London
+minima:
+  date_format: "%d %b %Y"
 
 header_pages:
   - events.html
