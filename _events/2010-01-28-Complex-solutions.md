@@ -17,9 +17,7 @@ description: |
 
   #### Related external Event:
 
-  The Complexity of Emerging Behavioural Risks from Climate Change
-
-  A Satellite Meeting of the ECCS 2010 Conference, September 13-17, 2010, Lisbon
+  The Complexity of Emerging Behavioural Risks from Climate Change: [A Satellite Meeting of the ECCS 2010 Conference, September 13-17, 2010, Lisbon]($DOC_PATH/ClimateChangeBehavRisks_LisbonSatelliteMeetingFlyer.pdf).
 
 project: # e.g. SOCIONICAL.  Will be made lowercase and have '.html' added to find page.
 youtube_playlist: 
@@ -32,6 +30,7 @@ docs: # List of document filenames (to be found at path_to_docs/filename)
 - WasdellSeminarPresentation_28Jan2010.pdf
 - WasdellSeminarTranscript_Part1.pdf
 - WasdellSeminarTranscript_Part2.pdf
+- ClimateChangeBehavRisks_LisbonSatelliteMeetingFlyer.pdf
 
 audio: # List of audio filenames.
 youtube: # Same structure as in sessions.youtube

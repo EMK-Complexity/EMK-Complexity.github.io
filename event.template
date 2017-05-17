@@ -4,7 +4,7 @@ start_time: # 24hr clock. Must be in quotes. No need for offset
 end_time: # 24hr clock. Must be in quotes. No need for offset
 end_date: # year-month-day e.g. 2016-01-02
 category: 
-description: # Markdown.
+description: # Markdown.  Can use "$IMG_PATH/", "$BUCKET/", "$DOC_PATH/"
 project: # e.g. SOCIONICAL.  Will be made lowercase and have '.html' added to find page.
 youtube_playlist: 
 venue: 

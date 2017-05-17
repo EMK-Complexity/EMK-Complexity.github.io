@@ -1,3 +1,5 @@
+{% assign path_to_docs = page.path_to_docs | replace: "$BUCKET", site.path_to_bucket %}
+
 {% if include.session.organisers %}
   <h4>Presenters</h4>
 {% endif %}
@@ -6,7 +8,10 @@
 {% if include.session.description and include.session.description != "" %}
   <h4>Description</h4>
   <span itemprop="description"> 
-    {{ include.session.description | markdownify | replace:"$IMG_PATH",page.img_path}}
+    {{ include.session.description | markdownify 
+      | replace:"$IMG_PATH",page.img_path 
+      | replace:"$BUCKET", site.path_to_bucket
+      | replace:"$DOC_PATH/", path_to_docs }}
   </span>
 {% endif %}
 
@@ -26,5 +31,4 @@
 {% include list-files.html files=include.session.audio heading="Audio files" path=site.path_to_audio_files %}
 
 <!-- List documents -->
-{% assign path_to_docs = page.path_to_docs | replace: "$BUCKET", site.path_to_bucket %}
 {% include list-files.html files=include.session.docs heading="Documents" path=path_to_docs %}
