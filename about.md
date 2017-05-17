@@ -19,12 +19,11 @@ team_members:
     image: ugur-bilge.jpg
     job: Senior Research Associate
     profile_url: http://www.lse.ac.uk/researchAndExpertise/units/complexity/aboutus/Staff/Dr-Ugur-Bilge.aspx
+microdata: 'itemscope itemtype="http://schema.org/Organization"'
 ---
 
-<span itemscope itemtype="http://schema.org/Organization">
-<span itemprop="name" style="display:none;">EMK Complexity Group</span>
+<meta itemprop="name" content="EMK Complexity Group"/>
 
-        
 The EMK Complexity Group has been working for over 20 years, with organisations in the private and public sectors to address practical complex problems. In the process it has developed a theory of complex social systems and an integrated methodology using both qualitative and quantitative tools and methods.
 
 ## Organisations we have worked with
@@ -58,5 +57,3 @@ The Research Partners take an active role in the research projects and help fund
 {% for member in page.team_members %}
   {% include team_member.html member=member %}
 {% endfor %}
-
-</span>

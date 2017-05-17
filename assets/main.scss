@@ -29,14 +29,6 @@ $header-bg-color: #000;
     font-weight: bold;
 }
 
-.member-profile {
-    padding-bottom: 2em;
-}
-
-.member-profile-text p {
-    margin-bottom: 0em;
-}
-
 body {
     font-family: Montserrat, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #818181;
@@ -44,6 +36,20 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: #111;
+}
+
+//----------------------------------------
+// Member information
+.member-profile {
+    padding-bottom: 2em;
+}
+
+.member-profile p {
+    margin-bottom: 0em;
+}
+
+.member-profile img {
+    margin-bottom: 0.5em
 }
 
 //-----------------------------------------
