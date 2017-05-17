@@ -1,14 +1,37 @@
-{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+{% comment %}
+  Arguments:
+  ----------
+  * time
+  * date
+  * itemprop : {"startDate" | "endDate"}
+{% endcomment %}
 
-{{ "2008-06-26T06:00:00" | date_to_xmlschema }}
 
-{% assign time = include.datetime | date: "%H:%M:%S" %}
-{% if time == "00:00:00" %}
-  {% assign datetime = include.datetime | date_to_xmlschema | truncate: 10, '' %}
+{% if include.date %}
+  {% assign date_format = site.minima.date_format %}
+  {% assign date = include.date %}
 {% else %}
-  {% assign datetime = include.datetime | date_to_xmlschema %}
+  {% assign date_format = "" %}
+  {% assign date = page.date %}
+{% endif %}
+
+<!-- strip the time off the datetime string -->
+{% assign date = date | date_to_xmlschema | truncate: 10, '' %}
+
+{% if include.time %}
+  {% assign datetime = date | append: "T" | append: include.time | date_to_xmlschema %}
+  {% assign date_format = date_format | append: " %H:%M" %}
+{% else %}
+  {% assign datetime = date %}
 {% endif %}
 
 <time itemprop="{{ include.itemprop }}" datetime="{{ datetime }}">
-  {{ datetime | date: date_format }}
+  {% if date_format != "" %}
+
+    {% if include.itemprop == "endDate" %}
+      -
+    {% endif %}
+
+    {{ datetime | date: date_format }}
+  {% endif %}
 </time>

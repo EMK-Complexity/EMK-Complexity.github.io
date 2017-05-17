@@ -1,6 +1,8 @@
 ---
 title:  "ESRC complexity seminar 2: Energy and Climate Change: Contribution of Complexity Science"
 category: ESRC complexity seminar series
+start_time: "09:30"
+end_time: "18:00"
 youtube_playlist: PLFWENpxYsbNpvc1xE4GToSRDC13h2qOIu
 venue: The LSE
 description: Organised jointly with Professor Jeff Johnson, The Open University.
