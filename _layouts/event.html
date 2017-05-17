@@ -5,7 +5,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/Event">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title" itemprop="name">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time itemprop="startDate" content="{{ page.date | date_to_xmlschema }}">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -18,13 +18,19 @@ layout: default
         </time>
       {% endif %}
       {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+        •
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ page.author }}</span>
+        </span>
       {% endif %}
       {% if page.venue %}
         | Venue: 
         <span itemprop="location" itemscope itemtype="http://schema.org/Place">
           <span itemprop="name">
             {{ page.venue }}
+          </span>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <!-- Need an address - even an empty address - to get microdata to validate! -->
           </span>
         </span>
       {% endif %}
@@ -54,7 +60,7 @@ layout: default
 
     {% for session in page.sessions %}
       {% if session.hide %} {% continue %} {% endif %}
-      <div class="session" itemprop="subEvent" itemscope itemtype="http://schema.org/subEvent">
+      <div class="session" itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
       <a name="{{ session.title | slugify }}">
         <h2 style="margin-bottom: 0em;" itemprop="name"> {{ session.title }} </h2>
       </a>
