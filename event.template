@@ -28,10 +28,11 @@ sessions:
   is_section_heading: # set to true if this is a section heading, not a "proper" session.
   presenters:
     - 
-      role: # e.g. "Moderator: "  Was called "prefix".
+      role: # e.g. "Moderator: "  Was called "prefix".  The role for this event.
       title: # e.g. Dr.
       name: # Set to "Prof. Eve Mitleton-Kelly" to include in list of Eve's presentations.
       suffix: # e.g. OBE or MD
+      job: # Job title at their affiliated institution
       affiliation: # e.g. LSE
       url: # Home page
   organisers: # same structure as presenters

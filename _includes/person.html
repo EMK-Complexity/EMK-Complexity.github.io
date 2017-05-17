@@ -36,6 +36,10 @@
   {% if include.person.url %}
     </a>
   {% endif %}  
+  {% if include.person.job %}
+    -
+    <span itemprop="jobTitle">{{ include.person.job }}</span>
+  {% endif %}
   {% if include.person.affiliation %}
     -
     <span itemprop="affiliation">{{ include.person.affiliation }}</span>
