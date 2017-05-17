@@ -31,10 +31,13 @@ layout: default
         </span>
       {% endif %}
       {% if page.youtube_playlist %}
-	| <a href="https://www.youtube.com/playlist?list={{ page.youtube_playlist }}">YouTube playlist of event</a>
+	| 
+        <span itemscope itemtype="http//schema.org/VideoObject">
+          <a itemprop="contentUrl" href="https://www.youtube.com/playlist?list={{ page.youtube_playlist }}">YouTube playlist of event</a>
+        </span>
       {% endif %}
       {% if page.external_website %}
-        | <a href="{{ page.external_website }}">External website</a>
+        | <a itemprop="sameAs" href="{{ page.external_website }}">External website</a>
       {% endif %}
       {% if page.project %}
         
