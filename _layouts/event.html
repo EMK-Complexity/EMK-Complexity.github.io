@@ -7,13 +7,13 @@ layout: default
   <header class="post-header">
     <h1 class="post-title" itemprop="name">{{ page.title | escape }}</h1>
     <p class="post-meta">
-      <time itemprop="startDate" content="{{ page.date | date_to_xmlschema | truncate: 10 }}">
+      <time itemprop="startDate" content="{{ page.date | date_to_xmlschema | truncate: 11, '' }}">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
       </time>
       {% if page.end_date %}
         -
-        <time itemprop="endDate" content="{{ page.end_date | date_to_xmlschema | truncate: 10 }}">
+        <time itemprop="endDate" content="{{ page.end_date | date_to_xmlschema | truncate: 11, '' }}">
           {{ page.end_date | date: date_format }}
         </time>
       {% endif %}
