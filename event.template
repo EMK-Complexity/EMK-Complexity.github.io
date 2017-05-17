@@ -35,5 +35,6 @@ sessions:
   youtube: # Can be a single string or a list of strings of the YouTube video ID.
   vimeo: # List of strings of the Vimeo video ID.  e.g. "[5181341]"
   audio: # List of filenames to audio. The path to audio is set in _config.yml
+  docs: 
   hide: # set to "true" to not display this session.  Useful to include event in list of Eve's Presentations.
 ---
