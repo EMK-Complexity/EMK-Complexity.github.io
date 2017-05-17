@@ -13,6 +13,8 @@ path_to_docs: # Must end with trailing slash.  e.g. $BUCKET/events/2012/
 docs: # List of document filenames (to be found at path_to_docs/filename)
 audio: # List of audio filenames.
 external_website: # URL
+presenters: # Same as presenters in sessions
+organisers: # Same as presenters in sessions
 sessions:
 - 
   title: 
@@ -23,9 +25,10 @@ sessions:
   is_section_heading: # set to true if this is a section heading, not a "proper" session.
   presenters:
     - 
-      prefix: 
+      role: # e.g. "Moderator: "  Was called "prefix".
+      title: # e.g. Dr.
       name: # Set to "Prof. Eve Mitleton-Kelly" to include in list of Eve's presentations.
-      affiliation: 
+      affiliation: # e.g. LSE
   description: 
   youtube: # Can be a single string or a list of strings of the YouTube video ID.
   vimeo: # List of strings of the Vimeo video ID.  e.g. "[5181341]"

@@ -1,0 +1,10 @@
+<li itemprop="{{ include.itemprop | default: 'performer' }}" itemscope itemtype="http://schema.org/Person">
+  {{ include.person.role | default: include.person.prefix }}
+  <span itemprop="honorificPrefix">{{ include.person.title }}</span>
+  <strong>
+    <span itemprop="name">{{ include.person.name }}</span>
+  </strong>
+  {% if person.affiliation %},
+    <span itemprop="affiliation">{{ include.person.affiliation }}</span>
+  {% endif %}
+</li>

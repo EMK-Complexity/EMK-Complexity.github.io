@@ -1,0 +1,8 @@
+{% if include.presenters %}
+  <h4>Presenters</h4>
+  <ul class="presenters">
+  {% for presenter in include.presenters %}
+    {% include person.html person=presenter %}
+  {% endfor %}
+  </ul>
+{% endif %}
