@@ -90,7 +90,7 @@ layout: default
       </div>
     {% endfor %}
 
-    {{ content }}
+    {% include replace-tokens.html input=content %}
 
   </div>
 

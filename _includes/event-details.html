@@ -7,12 +7,9 @@
 
 {% if include.session.description and include.session.description != "" %}
   <h4>Description</h4>
-  {% assign img_path = page.img_path | replace: "$BUCKET", site.path_to_bucket %}
   <span itemprop="description"> 
-    {{ include.session.description | markdownify 
-      | replace:"$IMG_PATH", img_path 
-      | replace:"$BUCKET", site.path_to_bucket
-      | replace:"$DOC_PATH/", path_to_docs }}
+    {% assign description = include.session.description | markdownify %}
+    {% include replace-tokens.html input=description %}
   </span>
 {% endif %}
 
