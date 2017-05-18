@@ -8,3 +8,5 @@ On a `page`, these tokens can be used:
 * "$BUCKET" will be replaced with the URL in `_config.yml:path_to_bucket`.  This is used for pointing to assets on Amazon S3.
 * "$IMG_PATH" will be replaced by `page.img_path` (which can itself use $BUCKET).
 * "$DOC_PATH" will be replaced by `page.doc_path` (which can itself use $BUCKET).
+
+To serve locally: `bundler exec jekyll serve`
