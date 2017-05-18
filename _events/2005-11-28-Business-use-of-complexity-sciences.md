@@ -23,6 +23,8 @@ description: |
 venue: Hewlett-Packard, Grenoble, France
 path_to_docs: $BUCKET/events/2005/Grenoble/
 youtube_playlist: PLFWENpxYsbNoiAYG9WCJpmRiUPlSBhVU6
+docs:
+  - PROGRAMME_Grenoble.pdf
 organisers:
   - name: Exystence
   - name: Hewlett-Packard
