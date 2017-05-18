@@ -5,15 +5,16 @@ end_time: "16:30" # 24hr clock. Must be in quotes. No need for offset
 end_date: # year-month-day e.g. 2016-01-02
 category: Workshop
 description: | # Markdown.  Can use "$IMG_PATH/", "$BUCKET/", "$DOC_PATH/"
-    Following the successful Exystence Symposium in Turin on Art, Complexity and Technology in May 2005, ECiD (the AHRB/EPSRC funded 'Embracing Complexity in Design' research cluster) will hold a workshop on Art, Complexity and Design on Friday 7 October 2005 to be held at University College London (UCL). This will offer the opportunity to see and discuss, from a design perspective, 2 of the Turin presentations on video. There will also be live presentations, a panel of artists discussing complexity & design from their perspective, and an exhibition of work by the artists.
+    Following the successful [Exystence Symposium in Turin on Art, Complexity and Technology](2005-05-05-art-complexity-and-technology.html) in May 2005, ECiD (the AHRB/EPSRC funded 'Embracing Complexity in Design' research cluster) will hold a workshop on Art, Complexity and Design on Friday 7 October 2005 to be held at University College London (UCL). This will offer the opportunity to see and discuss, from a design perspective, 2 of the Turin presentations on video. There will also be live presentations, a panel of artists discussing complexity & design from their perspective, and an exhibition of work by the artists.
 
     If you missed the Turin Symposium then this is an excellent opportunity to join in this fascinating discussion. The workshop is free, you just need to contact Katerina Alexiou [a.alexiou@ucl.ac.uk] to book a place in advance, as space is limited.
 
     Updated information, together with a map are on the ECiD website (note that the original website, <http://www.complexityanddesign.net>, is no longer active.  Instead, please see the [archived version](http://web.archive.org/web/20060829214442/http://www.complexityanddesign.net:80/index.html).).
+
 project: # e.g. SOCIONICAL.  Will be made lowercase and have '.html' added to find page.
 youtube_playlist: 
 venue: Thomas Lewis Room, Rockefeller Building, UCL
-img_path: /images/events/2005 # No trailing slash. Then use "$IMG_PATH/" elsewhere in this page.
+img_path: /images/events/2005/Torino # No trailing slash. Then use "$IMG_PATH/" elsewhere in this page.
 path_to_docs: $BUCKET/events/2005/
 external_website: http://web.archive.org/web/20060829214442/http://www.complexityanddesign.net:80/index.html
 
