@@ -29,6 +29,11 @@ organisers:
 
 sessions:
   -
+    title: "Welcome by HP and European Commission"
+    youtube:
+      - uMAC3kqmfcE
+  
+  -
     title: "LSE Business Cases: Rolls-Royce Marine Project - Enabling Post-Merger & Acquisition Integration"
     presenters:
       - name: Prof. Eve Mitleton-Kelly
