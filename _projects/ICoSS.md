@@ -406,3 +406,5 @@ The teams will be supported throughout the 3-year project by:
 
 To gain some understanding of complexity and its application, partners are invited to attend the Complexity Seminars
 
+
+{% include related-events.html project="ICoSS" %}

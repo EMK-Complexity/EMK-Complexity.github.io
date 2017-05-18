@@ -1,0 +1,12 @@
+<h3>Related events</h3>
+
+<div class="events-listing">
+  <div class="events-listing-group">
+    {% assign events = site.events | where:"project",include.project %}
+    <ul class="events-listing-posts">
+      {% for event in events %}
+        {% include post-listing-entry.html post=event %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
