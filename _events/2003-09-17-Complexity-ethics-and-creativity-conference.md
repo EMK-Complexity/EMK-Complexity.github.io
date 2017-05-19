@@ -4,6 +4,7 @@ start_time: "09:00"
 end_time: "18:30"
 end_date: 2003-09-18
 category: Conference
+youtube_playlist: PLFWENpxYsbNpITuKNG4tBCJOsupQBZqHs
 description: |
   **Can businesses be more creative and ethical?** The first aim of any business is to survive - but can creative and ethical thinking actually improve their chances of survival?
 
@@ -19,6 +20,8 @@ description: |
 venue: LSE
 path_to_docs: $BUCKET/events/Conference/
 external_website: http://web.archive.org/web/20061006234250/http://www.psych.lse.ac.uk/complexity/Conference/information.htm
+docs:
+  - "Speaker biographies:BioSep03.pdf"
 
 sessions:
   -
@@ -30,7 +33,6 @@ sessions:
       - name: Dr Peter Corning
         job: Director
         affiliation: Institute for the Study of Complex Systems (ISCS), Palo Alto, California, USA
-        bio: "Peter A. Corning, Ph.D formerly taught in the Human Biology Program and Political Science Department at Stanford University, and served as a senior partner in a management-consulting firm. Dr. Corning is also a member of several scientific organizations and a past president of the International Society for the Systems Sciences. He has previously published over 150 articles and book chapters, as well as four books. His newest trade book 'Nature's Magic: Synergy in Evolution and the Fate of Humankind' was published by Cambridge University Press (2003). He is currently preparing a new book on 'Beyond Capitalism and Socialism: The Biological Basis of Social Justice'."
     docs:
 
   -
@@ -51,7 +53,10 @@ sessions:
     end_time: "13:00"
     start_date: "2003-09-17"
     docs:
-      - SummarySep03.pdf
+      - "Details of all parallel sessions:SummarySep03.pdf"
+      - Amjad.pdf
+      - FellmanEstabrookDasari.pdf
+      - KatharineFarrell.pdf
     description: |
       **'The Basic Problem is Still Survival and an Evolutionary Ethics is Indispensable'**
       Peter Corning - discussion session
@@ -102,7 +107,10 @@ sessions:
     end_time: "17:30"
     start_date: "2003-09-17"
     docs:
-      - SummarySep03.pdf
+      - "Details of all parallel sessions:SummarySep03.pdf"
+      - FellmanWright.pdf
+      - JerryHeath.pdf
+      - MauriceYollesPaper.pdf
     description: |
       **'Modeling Terrorist Networks - Complex Systems at the Mid-Range'**
       Philip Vos Fellman, M.B.A., M.A., PhD, Professor of International Business,
@@ -130,12 +138,10 @@ sessions:
       - name: Terry Stock
         job: HR Director
         affiliation: Rolls-Royce Marine
-        bio: "Terry Stock is Director of Human Resources, Rolls-Royce Marine. Terry obtained a BSc degree from Birmingham University and an MSc from Imperial College, London, and is a Fellow of the Institute of Personnel and Development, and a Chartered Secretary. He has 20 years' of broad international experience in Human Resources, and has held the senior HR position in two UK listed companies - Johnson Matthey plc and Cookson Group plc. Terry joined Rolls-Royce in December 2000 as Director of HR - Marine. Aged 44 and married to Lora, they have a four-year old son, Alfred, and a two-year old daughter, Emily. Terry and Lora are keen and experienced scuba divers. Terry's other interests include cricket, soccer, theatre and cinema."
       - name: Eve Mitleton-Kelly
         job: Director of the Complexity Research Programme
         affiliation: LSE & OU
         image: /images/eve.jpg
-        bio: "Eve Mitleton-Kelly is Director and founder of the Complexity Research Programme at the London School of Economics, UK; Visiting Professor at the Open University; Coordinator of Links with Industry & Government in the European Network of Excellence, Exystence; Executive Director of SOL-UK (London), the London group of the global network 'Society for Organisational Learning'. The focus of her research has been the strategy process in the business and information systems domains, with over 90 companies in the UK and USA. Her recent work has concentrated on the implications of the theories of complexity for IT legacy systems, organisational learning and the emergence of organisational forms and has developed a methodology for identifying conditions that enable and constrain those processes, using the principles of complexity. She has written on complex social systems and on the application of the theory in practice and is editing a book on complexity and organisations with 14 international authors, 'Complex Systems and Evolutionary Perspectives on Organisations: the Application of Complexity Theory to Organisations', Elsevier, 2003, ISBN No: 0-08-043957-8. EMK's chapter outlines 10 principles of complexity and enabling infrastructures."
     docs:
 
 
@@ -157,7 +163,10 @@ sessions:
     end_time: "13:00"
     start_date: "2003-09-18"
     docs:
-      - SummarySep03.pdf
+      - "Details of all parallel sessions:SummarySep03.pdf"
+      - AgostinhoCastro.pdf
+      - Burton.pdf
+      - Nolas.pdf
     description: |
       **'Using visual art to facilitate emergent order in organisations'**
       Julian Burton, Strategic Artist, Delta7 and Artist in Residence, LSE Complexity Research Programme
@@ -179,7 +188,7 @@ sessions:
     end_time: "15:00"
     start_date: "2003-09-18"
     docs:
-      - SummarySep03.pdf
+      - "Details of all parallel sessions:SummarySep03.pdf"
     description: |
       **"Transforming the Ugly Duckling - Practical Applications of Complexity in the Workplace"** - 
       Peter Fryer - Business Parallel Session
@@ -195,7 +204,11 @@ sessions:
     end_time: "16:30"
     start_date: "2003-09-18"
     docs:
-      - SummarySep03.pdf
+      - "Details of all parallel sessions:SummarySep03.pdf"
+      - BMisztalpaper.pdf
+      - BullenSacksPaper.pdf
+      - Hopkinson.pdf
+      - Storr.pdf
     description: |
       **'From improvisation to taming uncertainty: creative responses to different levels of risk and formalization'**
       Barbara A. Misztal,
@@ -222,7 +235,10 @@ sessions:
     end_time: "17:30"
     start_date: "2003-09-18"
     docs:
-      - SummarySep03.pdf
+      - "Details of all parallel sessions:SummarySep03.pdf"
+      - Burton.pdf
+      - Hopkinson.pdf
+      - MeddMarvin.pdf
     description: |
       **'Evolution and Creativity and Organisational Change'**
       P.M.Allen<sup>1</sup>, M.Strathern<sup>1</sup> and J.S.Baldwin<sup>2</sup>,

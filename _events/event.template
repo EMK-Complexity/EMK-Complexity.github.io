@@ -12,7 +12,7 @@ img_path: # No trailing slash. Then use "$IMG_PATH/" elsewhere in this page.
 path_to_docs: # $BUCKET/events/2010/ Must end with trailing slash.
 external_website: # URL
 
-docs: # List of document filenames (to be found at path_to_docs/filename)
+docs: # List of document filenames (to be found at path_to_docs/filename).  Either just the filename e.g. "Bios.pdf" or filename and description: "Speaker biographies:Bios.pdf"
 audio: # List of audio filenames.
 youtube: # Same structure as in sessions.youtube
 vimeo: # Same structure as in sessions.vime

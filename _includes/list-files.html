@@ -1,8 +1,17 @@
 {% if include.files %}
   <h3>{{ include.heading }}</h3>
     <ol>
-      {% for filename in include.files %}
-	<li><a href="{{ include.path }}{{ filename }}">{{ filename }}</a></li>
+      {% for filename_and_desc in include.files %}
+        <li>
+        {% assign filename_and_desc_split = filename_and_desc | split:":" %}
+        {% assign     desc = filename_and_desc_split[0] %} 
+        {% assign filename = filename_and_desc_split[1] %} 
+        {% if filename %}
+          {{ desc }}: 
+        {% else %}
+          {% assign filename = filename_and_desc %}
+        {% endif %}
+	<a href="{{ include.path }}{{ filename }}">{{ filename }}</a></li>
       {% endfor %}
     </ol>
 {% endif %}

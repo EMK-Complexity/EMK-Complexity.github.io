@@ -3,6 +3,7 @@ layout: default
 ---
 
 <article class="post" itemscope itemtype="http://schema.org/Event">
+<div class="event">
 
   <span itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="{{ site.title }}" />
@@ -111,6 +112,7 @@ layout: default
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
+</div>
 </article>
 
 
