@@ -16,12 +16,6 @@ layout: default
       {% include time.html itemprop="startDate" time=page.start_time date=page.date %}
       {% include time.html itemprop="endDate" time=page.end_time date=page.end_date %}
       
-      {% if page.author %}
-        •
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <span itemprop="name">{{ page.author }}</span>
-        </span>
-      {% endif %}
       {% if page.venue %}
         | Venue: 
         <span itemprop="location" itemscope itemtype="http://schema.org/Place">
@@ -31,6 +25,11 @@ layout: default
           </span>
         </span>
       {% endif %}
+
+      {% if page.category %}
+        | <a href="/events#{{ page.category }}">{{ page.category }}</a>
+      {% endif %}
+
       {% if page.youtube_playlist %}
 	| 
         <a href="https://www.youtube.com/playlist?list={{ page.youtube_playlist }}">YouTube playlist of event</a>
@@ -77,10 +76,8 @@ layout: default
           </span>
         </span>
         
-        <a name="{{ session.title | slugify }}">
-          <h2 itemprop="name"> {{ session.title }} </h2>
-        </a>
-
+        <a name="{{ session.title | slugify }}"></a>
+        <h2 itemprop="name"> {{ session.title }} </h2>
 
         {% include time.html itemprop="startDate" date=session.start_date time=session.start_time %}
         {% if session.end_time %}

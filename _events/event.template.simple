@@ -2,9 +2,9 @@
 title: 
 start_time: 
 end_time: 
-category: 
+category: Seminar
 description: 
-venue: 
+venue: LSE
 path_to_docs: $BUCKET/events/2003/
 img_path: /images/events/2003
 external_website: 

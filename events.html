@@ -19,9 +19,8 @@ channel</a>.</p>
 <div class="events-listing">
   <!-- Find all Prof. Eve Mitleton-Kelly's presentations -->
   <div class="events-listing-group">
-    <a name="prof-eve-mitleton-kelly-s-presentations">
+    <a name="prof-eve-mitleton-kelly-s-presentations"></a>
       <h1>Prof. Eve Mitleton-Kelly's presentations</h1>
-    </a>
     <ul class="events-listing-posts">
 
       {% for event in site.events %}
@@ -48,13 +47,13 @@ channel</a>.</p>
 
 <div class="events-listing">
   <!-- Events grouped by category -->
-  <a name="grouped-by-category">
+  <a name="grouped-by-category"></a>
     <h1>All events grouped by category</h1>
-  </a>  
   {% assign grouped_by_category = site.events | group_by:"category" %}
   {% for category in grouped_by_category %}
     <div class="events-listing-group">
-      <h2> {{ category.name | default: "Miscellaneous" }} </h2>
+      {% assign category_name = category.name | default: "Uncategorised" %}
+      <a name="{{ category_name }}"></a><h2> {{ category_name }} </h2>
       <ul class="events-listing-posts">
         {% for event in category.items %}
           {% include post-listing-entry.html post=event %}
@@ -66,9 +65,8 @@ channel</a>.</p>
 
 <div class="events-listing">
   <!-- Events grouped by year -->
-  <a name="grouped-by-year">
+  <a name="grouped-by-year"></a>
     <h1>All events grouped by year</h1>
-  </a>  
   {% assign grouped_by_year = site.events | group_by_exp:"item", "item.date | date: '%Y'" %}
   {% for year in grouped_by_year %}
     <div class="events-listing-group">

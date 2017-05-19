@@ -21,5 +21,7 @@ audio:
 youtube: 
 vimeo: 
 presenters: 
+  - name: Prof David Lane
+  - name: Enzo Badalotti
 organisers: 
 ---
