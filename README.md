@@ -9,4 +9,11 @@ On a `page`, these tokens can be used:
 * "$IMG_PATH" will be replaced by `page.img_path` (which can itself use $BUCKET).
 * "$DOC_PATH" will be replaced by `page.doc_path` (which can itself use $BUCKET).
 
-To serve locally: `bundler exec jekyll serve`
+### Table of contents
+
+  * TOC
+  {:toc}
+
+### To serve locally
+
+`bundler exec jekyll serve`

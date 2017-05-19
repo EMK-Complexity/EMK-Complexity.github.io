@@ -127,3 +127,20 @@ h1, h2, h3, h4, h5, h6 {
 .PageNavigation .next {
   text-align: right;
 }
+
+//---------------------------------
+// TABLES
+
+table, th, td {
+    border: 1px solid #818181;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+
+th, td {
+    padding: 5px;
+}
