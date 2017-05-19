@@ -1,12 +1,14 @@
 ---
 title: "Professor Eve Mitleton-Kelly"
-job: "Director of the EMK Complexity Group; ​Member of the World Economic Forum's Global Agenda Council on Complex Systems"
+job: "Director"
 image: eve.jpg
 ---
 
 * **Email**: e.mitleton-kelly@lse.ac.uk
 * **Tel**: 020 7635 5553
 * **Mob**: 07887 514 522 
+
+Professor Eve Mitleton-Kelly is Director of the EMK Complexity Group; ​Member of the World Economic Forum's Global Agenda Council on Complex Systems
 
 ### Career
 
@@ -30,5 +32,5 @@ The EMK Methodology to address complex social problems is currently being used w
 
 She has edited, co-edited and co-authored five books and has written extensively on the theory and application of complexity. Edward Elgar Publishers have also commissioned her to act as Editor of a Handbook on Complexity Science Research Methods.
 
-* [Prof. Eve Mitleton-Kelly's presentations](/events/#prof-eve-mitleton-kelly-s-presentations)
+
 * [Prof. Eve Mitleton-Kelly's publications](/publications)

@@ -1,23 +1,32 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post" itemscope itemtype="http://schema.org/Person">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h1 class="post-title" itemprop="name">{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content">
 
-    <div class="member-profile">
+    <div class="member-profile" >
       {% if page.image %} 
       {% assign imgsrc = "/images/" | append: page.image %}
-      <img src="{{ imgsrc }}" alt="{{ page.title }}"/>
+      <img itemprop="image" src="{{ imgsrc }}" alt="{{ page.title }}"/>
       {% endif %}
-      <p> {{ page.job }} </p>
+      <p itemprop="jobTitle" > {{ page.job }} </p>
     </div>
 
+    <span style="display:none" itemprop="memberOf" itemscope itemtype="http://schema.org/Orgnization">
+      <span itemprop="name">{{ site.title }}</span>
+      <span itemprop="url">{{ site.url }}</span>
+    </span>
+
     {% include replace-tokens.html input=content %}
+
+    {% assign search_key = page.title | split: " " | last %}
+    {% assign heading = page.title | append: "'s Presentations" %}
+    {% include all-events-for-person.html heading=heading key=search_key %}
   </div>
 
 </article>

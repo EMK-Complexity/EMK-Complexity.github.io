@@ -36,7 +36,13 @@ The Research Partners take an active role in the research projects and help fund
 
 ## Team members
 
-
-{% for person in site.people %}
-  {% include team_member.html member=person %}
+<div>
+{% assign group_names = "Director|Senior Research Fellow|Senior Research Associate" | split:"|" %}
+{% for group in group_names %}
+  <h2>{{ group }}</h2>
+  {% assign people_in_group = site.people | where:"job", group %}
+  {% for person in people_in_group %}
+    {% include team_member.html member=person %}
+  {% endfor %}
 {% endfor %}
+</div>

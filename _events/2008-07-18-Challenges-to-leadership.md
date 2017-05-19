@@ -87,8 +87,8 @@ sessions:
   description: Prof. Eve Mitleton-Kelly will present some insights from the LSE ‘Challenges to Leadership in the 21st Century’ project, which included interviews with fifteen FTSE 100 CEOs, Chairmen and Senior Civil Servants. What emerged was not just identification of some key challenges, but also some deep insights on how these challenges were being addressed. She will describe how complexity theory underpins and explains some characteristics of good leadership; how and why effective leaders are able to create the right enabling environment once they have understood the complex challenge their organisation is facing.
 -
   title: "Leadership & Complexity: Aligning IT with Business "
-  start_time: ""
-  end_time: ""
+  start_time: "16:45"
+  end_time: "17:45"
   presenters:
     - name: Dr Paul Stevens
       job: (recently retired) VP of IT
