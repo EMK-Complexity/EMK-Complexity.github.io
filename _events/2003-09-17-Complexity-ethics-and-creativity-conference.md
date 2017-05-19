@@ -33,7 +33,8 @@ sessions:
       - name: Dr Peter Corning
         job: Director
         affiliation: Institute for the Study of Complex Systems (ISCS), Palo Alto, California, USA
-    docs:
+    youtube:
+      - aOzG42OJVOw
 
   -
     title: E-transformation - a Threat or an Opportunity for Human Beings?
@@ -45,7 +46,9 @@ sessions:
         job: 
         affiliation: ITESM Mexico & vice-president of Strategic Initiatives for IBM Latin-America
         bio: ""
-    docs:
+    youtube:
+      - mYP1v5apq-g
+      - fXxVY3-3Jks
 
   -
     title: 1st Parallel Session
@@ -87,7 +90,9 @@ sessions:
         job: Vice President Sustainable Development 
         affiliation: Royal Dutch/Shell
         bio: ""
-    docs:
+    youtube:
+      - 0bE87FLjBUg
+      - 6eWlamBt5YM
 
   -
     title: Do modest positions have to be weak? Complexity, Knowledge and Responsibility
@@ -99,7 +104,9 @@ sessions:
         job: 
         affiliation: University of Stellenbosch, South Africa
         bio: ""
-    docs:
+    youtube:
+      - y6AI9bL5KN4
+      - 0d3dPI36Fek
 
   -
     title: 2nd Parallel Session
@@ -142,7 +149,9 @@ sessions:
         job: Director of the Complexity Research Programme
         affiliation: LSE & OU
         image: /images/eve.jpg
-    docs:
+    youtube:
+      - K0QHNI5WYvU
+      - UUnsgZWU6W4
 
 
   -
@@ -155,7 +164,8 @@ sessions:
         job: 
         affiliation: Santa Fe Institute
         bio: ""
-    docs:
+    youtube:
+      - aKGquKq1iC8
 
   -
     title: 1st Parallel Session (6 groups)
