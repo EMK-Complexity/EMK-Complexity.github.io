@@ -36,7 +36,12 @@ layout: default
         <a href="https://www.youtube.com/playlist?list={{ page.youtube_playlist }}">YouTube playlist of event</a>
       {% endif %}
       {% if page.external_website %}
-        | <a itemprop="sameAs" href="{{ page.external_website }}">External website</a>
+        {% if page.external_website contains "web.archive.org" %}
+          {% assign link_text = "Archived LSE site" %}
+        {% else %}
+          {% assign link_text = "External website" %}
+        {% endif %}
+        | <a itemprop="sameAs" href="{{ page.external_website }}">{{ link_text }}</a>
       {% endif %}
       {% if page.project %}
         
