@@ -12,7 +12,7 @@
     {% assign name = name | remove: "Lord "%}
     {% assign title = title | append: "Lord " %}
   {% endif %}
-  {% if name contains "Prof" %}
+  {% if name contains "Prof" or name contains "Professor" %}
     {% assign name = name | remove: "Professor " | remove: "Prof. " | remove: "Prof " %}
     {% assign title = title | append: "Professor " %}
   {% endif %}
