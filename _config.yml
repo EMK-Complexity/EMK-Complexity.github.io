@@ -54,7 +54,10 @@ collections:
     permalink: /:collection/:name.html
   guide:
     output: true
-    permalink: /:collection/:name.html    
+    permalink: /:collection/:name.html
+  people:
+    output: true
+    permalink: /:collection/:name.html
       
 defaults:
   - scope:
@@ -72,6 +75,11 @@ defaults:
       type: guide
     values:
       layout: page
+  - scope:
+      path: _people
+      type: people
+    values:
+      layout: person
 
 path_to_audio_files: http://emk-complexity.s3.amazonaws.com/audio/ # with trailing slash
 path_to_bucket: http://emk-complexity.s3.amazonaws.com # no trailing slash
@@ -79,3 +87,5 @@ path_to_bucket: http://emk-complexity.s3.amazonaws.com # no trailing slash
 exclude:
   - _events/event.template
   - _events/event.template.simple
+#  - "_events/*"
+#  - "_projects/*"

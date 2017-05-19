@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+
+    <div class="member-profile">
+      {% if page.image %} 
+      {% assign imgsrc = "/images/" | append: page.image %}
+      <img src="{{ imgsrc }}" alt="{{ page.title }}"/>
+      {% endif %}
+      <p> {{ page.job }} </p>
+    </div>
+
+    {% include replace-tokens.html input=content %}
+  </div>
+
+</article>

@@ -1,20 +1,12 @@
-<div class="member-profile" itemscope itemtype="http://schema.org/Person">
-  {% if include.member.image %} 
-    {% assign imgsrc = "/images/" | append: include.member.image %}
-    <img itemprop="image" src="{{ imgsrc }}" alt="{{ include.member.name }}"/>
-  {% endif %}
+<div class="member-profile">
+  <a href="{{ include.member.url }}">
+    {% if include.member.image %} 
+      {% assign imgsrc = "/images/" | append: include.member.image %}
+      <img src="{{ imgsrc }}" alt="{{ include.member.title }}"/>
+    {% endif %}
 
-  <p><strong>
-      <span itemprop="honorificPrefix">{{ include.member.title }}</span>
-      <span itemprop="name">{{ include.member.name }}</span>
-  </strong></p>
-  <p itemprop="jobTitle"> {{ include.member.job }} </p>
-  {% if include/member.profile_url %} 
-    <p> <a itemprop="sameAs" href="{{ include.member.profile_url }}">Full profile</a> </p>
-  {% endif %}
-  <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="{{ site.title }}" />
-    <link itemprop="url" href="/" />
-  </span>
-  
+    <p><strong>{{ include.member.title }}</strong></p>
+
+  </a>
+  <p> {{ include.member.job }} </p>
 </div>

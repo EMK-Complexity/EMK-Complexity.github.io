@@ -2,23 +2,6 @@
 layout: page
 title: About
 permalink: about/
-eve:
-  name: Eve Mitleton-Kelly
-  title: Professor
-  job: "Director of the EMK Complexity Group; ​Member of the World Economic Forum's Global Agenda Council on Complex Systems"
-  image: eve.jpg
-
-team_members:
-  - name: Maggie Ellis
-    image: maggie-ellis.png
-    job: Senior Research Fellow
-    profile_url: https://theinternationaltelecaretel2013.sched.com/speaker/maggieellis
-
-  - name: Ugur Bilge
-    title: Dr      
-    image: ugur-bilge.jpg
-    job: Senior Research Associate
-    profile_url: http://www.lse.ac.uk/researchAndExpertise/units/complexity/aboutus/Staff/Dr-Ugur-Bilge.aspx
 ---
 
 The EMK Complexity Group has been working for over 20 years, with organisations in the private and public sectors to address practical complex problems. In the process it has developed a theory of complex social systems and an integrated methodology using both qualitative and quantitative tools and methods.
@@ -29,7 +12,9 @@ AstraZeneca, BT, BAe Systems, Cabinet Office, Citibank (New York & London), Defr
 
 ## EMK Complexity Group Director
 
-{% include team_member.html member=page.eve %}
+{% assign eve = site.people | where:"title","Professor Eve Mitleton-Kelly" %}
+{% assign eve = eve[0] %}
+{% include team_member.html member=eve %}
    
 ## About the EMK Complexity Group
 
@@ -51,6 +36,7 @@ The Research Partners take an active role in the research projects and help fund
 
 ## Team members
 
-{% for member in page.team_members %}
-  {% include team_member.html member=member %}
+
+{% for person in site.people %}
+  {% include team_member.html member=person %}
 {% endfor %}
