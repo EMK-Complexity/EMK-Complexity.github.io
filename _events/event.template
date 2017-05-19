@@ -35,6 +35,8 @@ sessions:
       job: # Job title at their affiliated institution
       affiliation: # e.g. LSE
       url: # Home page
+      image: # full URL of image file. Can include $IMG_PATH/ or $BUCKET/ or $DOC_PATH/.
+      bio: # Biography. Markdown. 
   organisers: # same structure as presenters
   description: 
   youtube: # Can be a single string or a list of strings of the YouTube video ID.

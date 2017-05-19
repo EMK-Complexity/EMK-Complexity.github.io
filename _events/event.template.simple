@@ -5,8 +5,8 @@ end_time:
 category: 
 description: 
 venue: 
-path_to_docs: $BUCKET/events/2004/
-img_path: /images/events/2004
+path_to_docs: $BUCKET/events/2003/
+img_path: /images/events/2003
 external_website: 
 
 docs: 

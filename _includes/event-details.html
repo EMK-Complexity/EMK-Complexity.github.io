@@ -1,16 +1,20 @@
 {% assign path_to_docs = page.path_to_docs | replace: "$BUCKET", site.path_to_bucket %}
 
-{% if include.session.organisers and include.session.presenters %}
-  <h4>Presenters</h4>
+{% if include.session.presenters %}
+  <div class="presenters">
+    <h3>Presenters</h3>
+    {% include presenters.html presenters=include.session.presenters %}
+  </div>
 {% endif %}
-{% include presenters.html presenters=include.session.presenters %}
 
 {% if include.session.description and include.session.description != "" %}
-  <h4>Description</h4>
-  <span itemprop="description"> 
-    {% assign description = include.session.description | markdownify %}
-    {% include replace-tokens.html input=description %}
-  </span>
+  <div class="description">
+    <h3>Description</h3>
+    <span itemprop="description"> 
+      {% assign description = include.session.description | markdownify %}
+      {% include replace-tokens.html input=description %}
+    </span>
+  </div>
 {% endif %}
 
 {% if include.session.youtube %}

@@ -4,11 +4,16 @@
   * time
   * date
   * itemprop : {"startDate" | "endDate"}
+  * hide_date : bool
 {% endcomment %}
 
 
 {% if include.date %}
-  {% assign date_format = site.minima.date_format %}
+  {% if include.hide_date %}
+    {% assign date_format = "" %}    
+  {% else %}
+    {% assign date_format = site.minima.date_format %}
+  {% endif %}
   {% assign date = include.date %}
 {% else %}
   {% assign date_format = "" %}

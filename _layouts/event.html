@@ -84,7 +84,10 @@ layout: default
             {% assign session_end_date = session.start_date %}
           {% endif %}
         {% endif %}
-        {% include time.html itemprop="endDate" date=session_end_date time=session.end_time %}
+        {% if session_end_date == session.start_date %}
+          {% assign hide_date = true %}
+        {% endif %}
+        {% include time.html itemprop="endDate" date=session_end_date time=session.end_time hide_date=hide_date %}
 
         {% include event-details.html session=session %}
       </div>

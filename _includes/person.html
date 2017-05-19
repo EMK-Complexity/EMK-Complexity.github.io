@@ -37,11 +37,21 @@
     </a>
   {% endif %}  
   {% if include.person.job %}
-    -
+    —
     <span itemprop="jobTitle">{{ include.person.job }}</span>
   {% endif %}
   {% if include.person.affiliation %}
-    -
+    —
     <span itemprop="affiliation">{{ include.person.affiliation }}</span>
+  {% endif %}
+  {% if include.person.image %}
+    {% capture img_src %}{% include replace-tokens.html input=include.person.image %}{% endcapture %}
+    <img itemprop="image" src="{{ img_src }}" alt="{{ name }}"/>
+  {% endif %}
+  {% if include.person.bio and include.person.bio != "" %}
+    {% unless include.person.image %}
+      — 
+    {% endunless %}
+    <span itemprop="description">{{ include.person.bio }}</span>
   {% endif %}
 </li>
