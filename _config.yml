@@ -19,7 +19,7 @@ email: E.Mitleton-Kelly@lse.ac.uk
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://emk-complexity.org" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username:
-# github_username: "EMK-Complexity"
+github_username: "EMK-Complexity"
 
 # Build settings
 markdown: kramdown
@@ -87,5 +87,6 @@ path_to_bucket: http://emk-complexity.s3.amazonaws.com # no trailing slash
 exclude:
   - _events/event.template
   - _events/event.template.simple
+  - /favicon.svg
 #  - "_events/*"
 #  - "_projects/*"

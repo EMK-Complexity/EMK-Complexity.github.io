@@ -32,7 +32,8 @@ channel</a>.</p>
       {% assign category_name = category.name | default: "Uncategorised" %}
       <a name="{{ category_name }}"></a><h2> {{ category_name }} </h2>
       <ul class="events-listing-posts">
-        {% for event in category.items %}
+        {% assign items_reversed = category.items | reverse %}
+        {% for event in items_reversed %}
           {% include post-listing-entry.html post=event %}
 	{% endfor %}
       </ul>
@@ -44,7 +45,7 @@ channel</a>.</p>
   <!-- Events grouped by year -->
   <a name="grouped-by-year"></a>
     <h1>All events grouped by year</h1>
-  {% assign grouped_by_year = site.events | group_by_exp:"item", "item.date | date: '%Y'" %}
+  {% assign grouped_by_year = site.events | reverse |group_by_exp:"item", "item.date | date: '%Y'" %}
   {% for year in grouped_by_year %}
     <div class="events-listing-group">
       <h2> {{ year.name }} </h2>
