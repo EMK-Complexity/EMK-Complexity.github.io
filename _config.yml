@@ -90,3 +90,5 @@ exclude:
   - /favicon.svg
 #  - "_events/*"
 #  - "_projects/*"
+
+google_analytics: UA-29040208-10
