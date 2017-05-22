@@ -4,14 +4,21 @@ Arguments:
 * post: a post object
 * do_not_link_to_anchor: bool
 * include_excerpt: bool
+* show_category: bool
 -->
 
-<li>
 
+<li>
   {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
   <span class="post-meta">{{ include.post.date | date: date_format }}</span>
   {% if include.post.end_date %}
     <span class="post-meta">- {{ include.post.end_date | date: date_format }}</span>
+  {% endif %}
+  {% if include.show_category and include.post.category %}
+    <span class="post-meta">- {{include.post.category}} </span>
+  {% endif %}
+  {% if include.post.venue %}
+    <span class="post-meta">- {{include.post.venue}} </span>
   {% endif %}
 
   <h2>

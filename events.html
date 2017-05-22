@@ -34,7 +34,7 @@ channel</a>.</p>
         <ul class="events-listing-posts">
           {% assign items_reversed = category.items | reverse %}
           {% for event in items_reversed %}
-            {% include post-listing-entry.html post=event %}
+            {% include post-listing-entry.html post=event show_category=false %}
           {% endfor %}
         </ul>
       </div>
@@ -52,7 +52,7 @@ channel</a>.</p>
       <h2> {{ year.name }} </h2>
       <ul class="events-listing-posts">
         {% for event in year.items %}
-          {% include post-listing-entry.html post=event %}
+          {% include post-listing-entry.html post=event show_category=true %}
 	{% endfor %}
       </ul>
     </div>

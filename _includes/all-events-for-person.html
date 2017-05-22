@@ -5,7 +5,7 @@
 
     {% for presenter in event.presenters %}
       {% if presenter.name contains include.key %}
-        {% include post-listing-entry.html post=event do_not_link_to_anchor=true %}
+        {% include post-listing-entry.html post=event do_not_link_to_anchor=true show_category=true %}
       {% endif %}
     {% endfor %}
 
@@ -14,7 +14,7 @@
       {% unless session.is_section_heading %}
         {% for presenter in session.presenters %}
           {% if presenter.name contains include.key %}
-            {% include post-listing-entry.html post=event session=session do_not_link_to_anchor=do_not_link_to_anchor %}
+            {% include post-listing-entry.html post=event session=session do_not_link_to_anchor=do_not_link_to_anchor show_category=true %}
           {% endif %}
         {% endfor %}
       {% endunless %}
