@@ -14,9 +14,9 @@ Contents of this page:
 Books
 -----
 
-Mitleton-Kelly E. 2003 Ed., *Complex Systems & Evolutionary Perspectives
-of Organisations: The Application of Complexity Theory to
-Organisations*, selected papers on complexity by 14 international
+Mitleton-Kelly E. 2003 Ed., *[Complex Systems and Evolutionary Perspectives
+on Organisations: The Application of Complexity Theory to
+Organisations](https://www.amazon.co.uk/Complex-Systems-Evolutionary-Perspectives-Organisations/dp/0080439578)*, selected papers on complexity by 14 international
 authors, Elsevier, ISBN 0-08-043957-8
 
 Keskinen A, Aaltonen M, Mitleton-Kelly E, 2003, Eds. *Organisational
@@ -27,14 +27,15 @@ Aaltonen M., Barth T, Casti JL, Mitleton-Kelly E., Sanders TI, 2005,
 Eds. *Complexity as a Sensemaking Framework*, Finland Futures Research
 Centre Publications 4/2005, <http://www.tukkk.fi/tutu>
 
-Mitleton-Kelly et al, 2010 Joint Author of ‘*Learning from Complexity:
-Enabling Governance Frameworks*’, published by Edward Elgar.
+Mitleton-Kelly et al, 2010 Joint Author of ‘*[Learning from Complexity:
+Enabling Governance Frameworks](https://www.researchgate.net/publication/265279462_LEARNING_FROM_COMPLEXITY_ENABLING_GOVERNANCE_FRAMEWORKS_LEARNING_FROM_COMPLEXITY_ENABLING_GOVERNANCE_FRAMEWORKS_Contents)*’, published by Edward Elgar.
 
-Mitleton-Kelly Ed.  July 2013 *‘Co-evolution of Intelligent
+Goergen, Mallin, Mitleton-Kelly, Al-Hawamdeh, H-Y Chiu. 2010. '*[Corporate Governance and Complexity Theory](http://www.e-elgar.com/shop/corporate-governance-and-complexity-theory)*' published by Edward Elgar.
+
+Mitleton-Kelly Ed.  July 2013 *‘[Co-evolution of Intelligent
 Socio-technical Systems: Modelling and Applications in Large Scale
-Emergency and Transport Domains’* publ. by Springer in the Springer
+Emergency and Transport Domains](http://www.springer.com/gb/book/9783642366130)’* publ. by Springer in the Springer
 Understanding Complex Systems Series
-
 
 Papers and chapters
 -------------------
@@ -200,6 +201,10 @@ during large-scale mass gatherings’* in ‘Co-evolution of Intelligent
 Socio-technical Systems: Modelling and Applications in Large Scale
 Emergency and Transport Domains’ Ed. Mitleton-Kelly E., in Springer
 Understanding Complex Systems Series
+
+Mitleton-Kelly, 2016, *'Complex Systems and Institutions: The Implications for the Sciences of Complexity for Organisational Design'* in '[To the Man with a Hammer... Augmenting the Policymaker’s Toolbox for a Complex World](https://www.bertelsmann-stiftung.de/de/publikationen/publikation/did/to-the-man-with-a-hammer-2/)'  Complex Systems and Institutions:The Implications of the Sciences of Complexity for Organisational Design, pp. 137 - 154
+
+
 
 
 Reports

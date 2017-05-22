@@ -99,6 +99,7 @@ Axelrod R. (1990), The Evolution of Cooperation, London: Penguin
 Ayers R. (1994), Information, Entropy, and Progress: A New Evolutionary
 Paradigm, Woodbury, New York: American Institute of Physics
 
+Allen P., Maguire S., McKelvey B. (2011), [The SAGE Handbook of Complexity and Management](https://uk.sagepub.com/en-gb/eur/the-sage-handbook-of-complexity-and-management/book233046#tabview=toc), SAGE Publications Ltd
 
 
 B
@@ -209,8 +210,8 @@ Bonabeau R. (1999), Making Sense of Networks: Biological and Economic
 Networks, Strategy & Complexity Seminar, 4 May, London School of
 Economics,
 
-Bourgon, J. (2011) A New Synthesis of Public Administration Serving in
-the 21st Century, Kingston,Ontario: McGill-Queen's University Press
+Bourgon, J. (2011) [A New Synthesis of Public Administration Serving in
+the 21st Century](http://www.mqup.ca/new-synthesis-of-public-administration--a-products-9781553393122.php), Kingston,Ontario: McGill-Queen's University Press
 
 Bourgeois L. J. and Eisenhardt K. M. (1988), ‘Strategic Decision
 Processes in High Velocity Environments: Four Cases in the Microcomputer
