@@ -14,7 +14,7 @@ channel</a>.</p>
 <p>Below is a list of our previous events.  The events are grouped in three ways:</p>
 <ul>
   <li><a href="#prof-eve-mitleton-kelly-s-presentations">Prof. Eve Mitleton-Kelly's presentations</a></li>
-  <li><a href="#grouped-by-category">All events, grouped by category</a></li>
+  <li><a href="#grouped-by-category">Events with categories assigned; grouped by category</a></li>
   <li><a href="#grouped-by-year">All events, grouped by year</a></li>
 </ul>
 
@@ -25,19 +25,20 @@ channel</a>.</p>
 <div class="events-listing">
   <!-- Events grouped by category -->
   <a name="grouped-by-category"></a>
-    <h1>All events grouped by category</h1>
+    <h1>Events with categories assigned; grouped by category</h1>
   {% assign grouped_by_category = site.events | group_by:"category" %}
   {% for category in grouped_by_category %}
-    <div class="events-listing-group">
-      {% assign category_name = category.name | default: "Uncategorised" %}
-      <a name="{{ category_name }}"></a><h2> {{ category_name }} </h2>
-      <ul class="events-listing-posts">
-        {% assign items_reversed = category.items | reverse %}
-        {% for event in items_reversed %}
-          {% include post-listing-entry.html post=event %}
-	{% endfor %}
-      </ul>
-    </div>
+    {% if category.name %}
+      <div class="events-listing-group">
+        <a name="{{ category_name }}"></a><h2> {{ category.name }} </h2>
+        <ul class="events-listing-posts">
+          {% assign items_reversed = category.items | reverse %}
+          {% for event in items_reversed %}
+            {% include post-listing-entry.html post=event %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 
