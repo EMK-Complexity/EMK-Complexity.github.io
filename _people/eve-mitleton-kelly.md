@@ -4,7 +4,7 @@ job: "Director"
 image: eve.jpg
 ---
 
-* **Email**: e.mitleton-kelly@lse.ac.uk
+* **Email**: E.Mitleton-Kelly@mitleton-kelly.org.uk
 * **Tel**: 020 7635 5553
 * **Mob**: 07887 514 522 
 
