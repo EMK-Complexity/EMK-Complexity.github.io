@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: EMK Complexity Group
-email: E.Mitleton-Kelly@lse.ac.uk
+email: E.Mitleton-Kelly@mitleton-kelly.org.uk
 # description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://emk-complexity.org" # the base hostname & protocol for your site, e.g. http://example.com
