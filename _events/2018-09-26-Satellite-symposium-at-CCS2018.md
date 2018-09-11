@@ -28,3 +28,4 @@ presenters:
 organisers: 
 ---
 
+[Satellite Symposium CCS 2018 Schedule with abstracts.docx](/images/events/2018/Satellite Symposium CCS 2018 Schedule with abstracts.docx)
