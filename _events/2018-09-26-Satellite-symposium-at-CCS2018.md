@@ -8,6 +8,8 @@ description: |
 
   Join Our Authors Presenting on Different Research Methods and Their Application
 
+  ![](/images/events/2018/handbook-of-research-methods-in-complexity-science-book-cover.jpg)
+
   Followed by
 
   Knowledge Café by **Edna Pasher PhD & Associates** to discuss opportunities for joint R&D projects to address the challenges of *The Hospital of The Future*.
