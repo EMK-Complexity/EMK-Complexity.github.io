@@ -17,3 +17,5 @@ On a `page`, these tokens can be used:
 ### To serve locally
 
 `bundler exec jekyll serve`
+
+For some reason, this isn't working on my laptop as of 2018.  But it works fine if I push to github.
