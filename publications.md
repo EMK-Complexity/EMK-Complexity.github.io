@@ -37,6 +37,8 @@ Socio-technical Systems: Modelling and Applications in Large Scale
 Emergency and Transport Domains](http://www.springer.com/gb/book/9783642366130)’* publ. by Springer in the Springer
 Understanding Complex Systems Series
 
+Mitleton-Kelly E., Paraskevas A., Day C., 2018, Eds. *[Handbook of Research Methods in Complexity Science - Theory and Applications](https://www.e-elgar.com/shop/handbook-of-research-methods-in-complexity-science)*, published by Edward Elgar.
+
 Papers and chapters
 -------------------
 
